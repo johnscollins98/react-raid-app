@@ -1,5 +1,6 @@
+import { IEncounter, INote, ISubgroup, IWing } from "./Interfaces"
 
-export const mockSubgroupOne = {
+export const mockSubgroupOne : ISubgroup = {
   label: "Subgroup 1",
   members: [
     { name: "Test1.1", profession: "chronomancer", role: "Quickness" },
@@ -10,7 +11,7 @@ export const mockSubgroupOne = {
   ]
 }
 
-export const mockSubgroupTwo = {
+export const mockSubgroupTwo : ISubgroup = {
   label: "Subgroup 2",
   members: [
     { name: "Test2.1", profession: "firebrand", role: "Heal" },
@@ -21,12 +22,13 @@ export const mockSubgroupTwo = {
   ]
 }
 
-export const mockNotes = [
+export const mockNotes : Array<INote> = [
   {heading: "Heading 1", points: ["Point 1.1", "Point 1.2"]},
   {heading: "Heading 2", points: ["Point 2.1", "Point 2.2"]},
 ]
 
-export const mockEncounter = {
+export const mockEncounter : IEncounter = {
+  id: "vale_guardian",
   label: "Vale Guardian",
   imageName: "vale_guardian.png",
   notes: mockNotes,
@@ -34,4 +36,10 @@ export const mockEncounter = {
     mockSubgroupOne,
     mockSubgroupTwo
   ]
+}
+
+export const mockWing : IWing = {
+  id: "w1",
+  label: "Spirit Vale",
+  encounters: [mockEncounter]
 }

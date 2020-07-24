@@ -15,8 +15,19 @@ export interface INote {
 }
 
 export interface IEncounter {
+  id: string;
   label: string;
   imageName: string;
   composition: Array<ISubgroup>;
   notes: Array<INote>;
+}
+
+export interface IWing {
+  id: string,
+  label: string,
+  encounters: Array<IEncounter>
+}
+
+export interface INavProps {
+  wings: Array<IWing>
 }
