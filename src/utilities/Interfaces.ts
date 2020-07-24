@@ -13,3 +13,10 @@ export interface INote {
   heading: string;
   points: Array<string>;
 }
+
+export interface IEncounter {
+  label: string;
+  imageName: string;
+  composition: Array<ISubgroup>;
+  notes: Array<INote>;
+}
