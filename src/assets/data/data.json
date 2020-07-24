@@ -1,0 +1,160 @@
+{
+  "wing1": {
+    "label": "Spirit Vale",
+    "encounters": {
+      "vale_guardian": {
+        "label": "Vale Guardian",
+        "image": "vale_guardian.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "class": "chronomancer",
+                "role": "Quickness",
+                "name": "CrackedSass"
+              },
+              {
+                "class": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "class": "berserker",
+                "role": "Power BS",
+                "name": "Elosia"
+              },
+              {
+                "class": "weaver",
+                "role": "Condition",
+                "name": "Blaster"
+              },
+              {
+                "class": "firebrand",
+                "role": "Condition",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "class": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "class": "renegade",
+                "role": "Power Alacrity",
+                "name": "Miruna"
+              },
+              {
+                "class": "holosmith",
+                "role": "Power",
+                "name": "Deekay"
+              },
+              {
+                "class": "holosmith",
+                "role": "Power",
+                "name": "Quan"
+              },
+              {
+                "class": "holosmith",
+                "role": "Power",
+                "name": "Banana"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "heading": "General",
+            "points": [
+              "Druid tank.",
+              "Be good."
+            ]
+          },
+          {
+            "heading": "Split Phase",
+            "points": [
+              "x do this",
+              "y do this"
+            ]
+          }
+        ]
+      },
+      "gorseval": {
+        "label": "Gorseval the Multifarious",
+        "image": "gorseval.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "class": "chronomancer",
+                "role": "Quickness",
+                "name": "CrackedSass"
+              },
+              {
+                "class": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "class": "berserker",
+                "role": "Power BS",
+                "name": "Elosia"
+              },
+              {
+                "class": "chronomancer",
+                "role": "Power",
+                "name": "Blaster"
+              },
+              {
+                "class": "dragonhunter",
+                "role": "Power",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "class": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "class": "renegade",
+                "role": "Power Alacrity",
+                "name": "Miruna"
+              },
+              {
+                "class": "holosmith",
+                "role": "Power",
+                "name": "Deekay"
+              },
+              {
+                "class": "holosmith",
+                "role": "Power",
+                "name": "Quan"
+              },
+              {
+                "class": "holosmith",
+                "role": "Power",
+                "name": "Banana"
+              }
+            ]
+          }
+        ],
+        "notes": []
+      }
+    }
+  },
+  "wing2": {
+    "label": "Salvation Pass",
+    "encounters": []
+  }
+}
