@@ -1,0 +1,17 @@
+.member {
+  display: flex;
+  flex: 20%;
+  max-width: 20%;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  min-width: 70px;
+}
+
+.class-image {
+  width: 100%;
+  min-width: 60px;
+  height: auto;
+}
