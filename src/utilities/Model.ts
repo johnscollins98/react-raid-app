@@ -1,10 +1,10 @@
-export interface Member {
+export interface IMember {
   profession: string;
   role: string;
   name: string;
 }
 
-export interface Subgroup {
+export interface ISubgroup {
   label: string;
-  members: Array<Member>;
+  members: Array<IMember>;
 }

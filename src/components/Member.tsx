@@ -2,13 +2,13 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 
 import './Member.css';
-import { Member as Props } from '../utilities/Model'
+import { IMember } from '../utilities/Model'
 
 function capitaliseFirstLetter(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-function Member(props: Props) {
+function Member(props: IMember) {
   const classImage = require(`../assets/images/profession_icons/${props.profession}.png`);
   const roleLabel = `${props.role} ${capitaliseFirstLetter(props.profession)}`
 

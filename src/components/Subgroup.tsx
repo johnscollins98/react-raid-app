@@ -2,11 +2,11 @@ import React from 'react';
 import { Row, Col } from "react-bootstrap";
 
 import './Subgroup.css';
-import { Subgroup as Props } from '../utilities/Model';
+import { ISubgroup } from '../utilities/Model';
 
 import Member from './Member'
 
-function Subgroup(props: Props) {
+function Subgroup(props: ISubgroup) {
   return (
     <Row className="subgroup">
       <Col xs={4} className="subgroup-label">{props.label}</Col>
