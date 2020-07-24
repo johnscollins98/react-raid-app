@@ -17,8 +17,8 @@ const members = [
   { name: "Test8", profession: "weaver", role: "Power" },
 ];
 
-export const withThree = () => (<Subgroup label="Subgroup 1" members={members.splice(0, 3)} />)
+export const withThree = () => (<Subgroup label="Subgroup 1" members={members.slice(0, 3)} />)
 
-export const withFive = () => (<Subgroup label="Subgroup 1" members={members.splice(0, 5)} />)
+export const withFive = () => (<Subgroup label="Subgroup 1" members={members.slice(0, 5)} />)
 
 export const withEight = () => (<Subgroup label="Subgroup 1" members={members} />)

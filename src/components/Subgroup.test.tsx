@@ -1,13 +1,10 @@
 import React from 'react';
+import { render } from '@testing-library/react';
+
 import Subgroup from './Subgroup';
+import { IMember } from '../utilities/Interfaces';
+import { mockSubgroupOne } from '../utilities/MockData';
 
 it('renders without failing', () => {
-  const members = [
-    { name: "Test1", profession: "weaver", role: "Power" },
-    { name: "Test1", profession: "weaver", role: "Power" },
-    { name: "Test1", profession: "weaver", role: "Power" },
-    { name: "Test1", profession: "weaver", role: "Power" },
-    { name: "Test1", profession: "weaver", role: "Power" },
-  ];
-  < Subgroup label="Subgroup 1" members={members} />
+  render(<Subgroup {...mockSubgroupOne}/>)
 });

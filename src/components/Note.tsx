@@ -1,6 +1,8 @@
 import React from 'react';
 
-function Note(props) {
+import { INote } from '../utilities/Interfaces';
+
+function Note(props: INote) {
   return (
     <div className="note">
       <h2 className="note-heading">{props.heading}</h2>
