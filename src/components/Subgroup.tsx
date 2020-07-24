@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from "react-bootstrap";
 
 import './Subgroup.css';
-import { ISubgroup } from '../utilities/Model';
+import { ISubgroup } from '../utilities/Interfaces';
 
 import Member from './Member'
 

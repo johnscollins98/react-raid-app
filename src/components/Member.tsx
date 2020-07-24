@@ -2,7 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 
 import './Member.css';
-import { IMember } from '../utilities/Model'
+import { IMember } from '../utilities/Interfaces'
 
 function capitaliseFirstLetter(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
