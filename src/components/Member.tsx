@@ -2,12 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 
 import './Member.css';
-
-interface Props {
-  profession: string;
-  role: string;
-  name: string;
-}
+import { Member as Props } from '../utilities/Model'
 
 function capitaliseFirstLetter(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
