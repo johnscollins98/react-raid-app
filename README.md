@@ -46,6 +46,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Runs storybook for this application.
 
+### `npm run predeploy`
+
+Test and build the application before deploying.
+
+### `npm run deploy`
+
+Deploy the application to gh-pages.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
