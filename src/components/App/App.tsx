@@ -6,13 +6,13 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
-import data from '../assets/data/data.json';
+import data from '../../assets/data/data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { IWing } from '../utilities/Interfaces';
+import { IWing } from '../../utilities/Interfaces';
 
-import Nav from './Nav';
-import EncounterRouter from './EncounterRouter';
-import HomePage from './HomePage';
+import Nav from '../Nav';
+import EncounterRouter from '../EncounterRouter';
+import HomePage from '../HomePage';
 
 function App() {
   const wings: Array<IWing> = data;
