@@ -17,7 +17,7 @@ import HomePage from '../HomePage/HomePage';
 function App() {
   const wings: Array<IWing> = data;
   return (
-    <Router>
+    <Router basename="/react-raid-app">
       <Nav wings={wings} />
       <div className="content">
         <Switch>
