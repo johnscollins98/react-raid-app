@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -17,7 +17,7 @@ import HomePage from '../HomePage/HomePage';
 function App() {
   const wings: Array<IWing> = data;
   return (
-    <Router basename="/react-raid-app">
+    <Router>
       <Nav wings={wings} />
       <div className="content">
         <Switch>
