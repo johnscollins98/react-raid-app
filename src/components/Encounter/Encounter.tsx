@@ -10,7 +10,7 @@ import Note from '../Note/Note';
 import { IEncounter } from '../../utilities/Interfaces';
 
 function Encounter(props: IEncounter) {
-  const bossImage = require(`../assets/images/boss_images/${props.imageName}`);
+  const bossImage = require(`../../assets/images/boss_images/${props.imageName}`);
 
   return (
     <div className="encounter">

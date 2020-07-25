@@ -9,7 +9,7 @@ function capitaliseFirstLetter(str: string): string {
 }
 
 function Member(props: IMember) {
-  const classImage = require(`../assets/images/profession_icons/${props.profession}.png`);
+  const classImage = require(`../../assets/images/profession_icons/${props.profession}.png`);
   const roleLabel = `${props.role} ${capitaliseFirstLetter(props.profession)}`
 
   return (

@@ -22,7 +22,7 @@ function getDropdowns(wings: Array<IWing>) {
 }
 
 function Nav(props: INavProps) {
-  const logo_image = require("../assets/images/SO_Logo.png");
+  const logo_image = require("../../assets/images/SO_Logo.png");
   return (
     <Navbar bg="dark" fixed="top" variant="dark" expand="lg">
       <Navbar.Brand as={Link} to="/">
