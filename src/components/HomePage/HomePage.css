@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  justify-self: center;
+}
