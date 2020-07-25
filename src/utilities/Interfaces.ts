@@ -39,3 +39,8 @@ export interface IEncounterRouterProps {
 export interface IHomeProps {
   errorMessage: string;
 }
+
+export interface IRouterParams {
+  wing: string;
+  encounter: string;
+}

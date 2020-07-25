@@ -4,6 +4,6 @@ import Encounter from './Encounter';
 
 import { mockEncounter } from '../utilities/MockData'
 
-it ('renders without failing', () => {
+it('renders without failing', () => {
   render(<Encounter {...mockEncounter} />)
 });

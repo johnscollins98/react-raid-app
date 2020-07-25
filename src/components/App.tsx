@@ -15,14 +15,14 @@ import EncounterRouter from './EncounterRouter';
 import HomePage from './HomePage';
 
 function App() {
-  const wings:Array<IWing> = data;
+  const wings: Array<IWing> = data;
   return (
     <Router>
       <Nav wings={wings} />
       <div className="content">
         <Switch>
           <Route path="/encounter/:wing/:encounter">
-            <EncounterRouter wings={wings}/>
+            <EncounterRouter wings={wings} />
           </Route>
           <Route path="/">
             <HomePage errorMessage="" />

@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import { useParams } from 'react-router-dom';
 
 import './Encounter.css';
 
@@ -10,7 +9,7 @@ import Subgroup from './Subgroup';
 import Note from './Note';
 import { IEncounter } from '../utilities/Interfaces';
 
-function Encounter(props:IEncounter) {
+function Encounter(props: IEncounter) {
   const bossImage = require(`../assets/images/boss_images/${props.imageName}`);
 
   return (
@@ -27,7 +26,7 @@ function Encounter(props:IEncounter) {
                 props.composition.map((subgroup, i) => (
                   <div key={subgroup.label}>
                     <Subgroup {...subgroup} />
-                    {(props.composition[i+1] != null) ? <div className="rule" /> : null}
+                    {(props.composition[i + 1] != null) ? <div className="rule" /> : null}
                   </div>
                 ))
               }

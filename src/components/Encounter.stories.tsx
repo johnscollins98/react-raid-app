@@ -8,4 +8,4 @@ import Encounter from './Encounter';
 
 export default { title: "Encounter" };
 
-export const withValid = () => <Encounter {...mockEncounter}/>
+export const withValid = () => <Encounter {...mockEncounter} />

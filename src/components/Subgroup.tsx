@@ -13,7 +13,7 @@ function Subgroup(props: ISubgroup) {
       <Col className="align-items-end members">
         {
           props.members.map(member => (
-            <Member {...member} key={member.name}/>
+            <Member {...member} key={member.name} />
           ))
         }
       </Col>
