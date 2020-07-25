@@ -31,3 +31,11 @@ export interface IWing {
 export interface INavProps {
   wings: Array<IWing>
 }
+
+export interface IEncounterRouterProps {
+  wings: Array<IWing>
+}
+
+export interface IHomeProps {
+  errorMessage: string;
+}

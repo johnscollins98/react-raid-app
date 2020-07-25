@@ -1,36 +1,38 @@
-{
-  "wing1": {
+[
+  {
+    "id": "w1",
     "label": "Spirit Vale",
-    "encounters": {
-      "vale_guardian": {
+    "encounters": [
+      {
+        "id": "vale_guardian",
         "label": "Vale Guardian",
-        "image": "vale_guardian.png",
+        "imageName": "vale_guardian.png",
         "composition": [
           {
             "label": "Subgroup 1",
             "members": [
               {
-                "class": "chronomancer",
+                "profession": "chronomancer",
                 "role": "Quickness",
                 "name": "CrackedSass"
               },
               {
-                "class": "druid",
+                "profession": "druid",
                 "role": "Heal",
                 "name": "Thillar"
               },
               {
-                "class": "berserker",
+                "profession": "berserker",
                 "role": "Power BS",
                 "name": "Elosia"
               },
               {
-                "class": "weaver",
+                "profession": "weaver",
                 "role": "Condition",
                 "name": "Blaster"
               },
               {
-                "class": "firebrand",
+                "profession": "firebrand",
                 "role": "Condition",
                 "name": "Millie"
               }
@@ -40,27 +42,27 @@
             "label": "Subgroup 2",
             "members": [
               {
-                "class": "firebrand",
+                "profession": "firebrand",
                 "role": "Heal",
                 "name": "Whiskers"
               },
               {
-                "class": "renegade",
+                "profession": "renegade",
                 "role": "Power Alacrity",
                 "name": "Miruna"
               },
               {
-                "class": "holosmith",
+                "profession": "holosmith",
                 "role": "Power",
                 "name": "Deekay"
               },
               {
-                "class": "holosmith",
+                "profession": "holosmith",
                 "role": "Power",
                 "name": "Quan"
               },
               {
-                "class": "holosmith",
+                "profession": "holosmith",
                 "role": "Power",
                 "name": "Banana"
               }
@@ -84,35 +86,36 @@
           }
         ]
       },
-      "gorseval": {
+      {
+        "id": "gorseval",
         "label": "Gorseval the Multifarious",
-        "image": "gorseval.png",
+        "imageName": "gorseval.png",
         "composition": [
           {
             "label": "Subgroup 1",
             "members": [
               {
-                "class": "chronomancer",
+                "profession": "chronomancer",
                 "role": "Quickness",
                 "name": "CrackedSass"
               },
               {
-                "class": "druid",
+                "profession": "druid",
                 "role": "Heal",
                 "name": "Thillar"
               },
               {
-                "class": "berserker",
+                "profession": "berserker",
                 "role": "Power BS",
                 "name": "Elosia"
               },
               {
-                "class": "chronomancer",
+                "profession": "chronomancer",
                 "role": "Power",
                 "name": "Blaster"
               },
               {
-                "class": "dragonhunter",
+                "profession": "dragonhunter",
                 "role": "Power",
                 "name": "Millie"
               }
@@ -122,27 +125,27 @@
             "label": "Subgroup 2",
             "members": [
               {
-                "class": "firebrand",
+                "profession": "firebrand",
                 "role": "Heal",
                 "name": "Whiskers"
               },
               {
-                "class": "renegade",
+                "profession": "renegade",
                 "role": "Power Alacrity",
                 "name": "Miruna"
               },
               {
-                "class": "holosmith",
+                "profession": "holosmith",
                 "role": "Power",
                 "name": "Deekay"
               },
               {
-                "class": "holosmith",
+                "profession": "holosmith",
                 "role": "Power",
                 "name": "Quan"
               },
               {
-                "class": "holosmith",
+                "profession": "holosmith",
                 "role": "Power",
                 "name": "Banana"
               }
@@ -151,10 +154,11 @@
         ],
         "notes": []
       }
-    }
+    ]
   },
-  "wing2": {
+  {
+    "id": "w2",
     "label": "Salvation Pass",
     "encounters": []
   }
-}
+]
