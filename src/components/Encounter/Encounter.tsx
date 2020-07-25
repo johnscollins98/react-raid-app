@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 
 import './Encounter.css';
 
-import Subgroup from './Subgroup';
-import Note from './Note';
-import { IEncounter } from '../utilities/Interfaces';
+import Subgroup from '../Subgroup/Subgroup';
+import Note from '../Note/Note';
+import { IEncounter } from '../../utilities/Interfaces';
 
 function Encounter(props: IEncounter) {
   const bossImage = require(`../assets/images/boss_images/${props.imageName}`);

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { INote } from '../utilities/Interfaces';
+import { INote } from '../../utilities/Interfaces';
 
 function Note(props: INote) {
   return (

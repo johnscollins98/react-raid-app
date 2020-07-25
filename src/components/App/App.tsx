@@ -10,9 +10,9 @@ import data from '../../assets/data/data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IWing } from '../../utilities/Interfaces';
 
-import Nav from '../Nav';
+import Nav from '../Nav/Nav';
 import EncounterRouter from '../EncounterRouter';
-import HomePage from '../HomePage';
+import HomePage from '../HomePage/HomePage';
 
 function App() {
   const wings: Array<IWing> = data;

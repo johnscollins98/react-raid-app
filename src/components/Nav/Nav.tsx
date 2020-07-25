@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav as BSNav, Navbar, NavDropdown } from "react-bootstrap";
 
-import { INavProps, IWing, IEncounter } from '../utilities/Interfaces';
+import { INavProps, IWing, IEncounter } from '../../utilities/Interfaces';
 
 function getDropdownLinks(wing: IWing) {
   return wing.encounters.map((encounter: IEncounter) => {

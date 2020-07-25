@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 
 import { IEncounterRouterProps, IRouterParams } from "../utilities/Interfaces";
 
-import Encounter from "./Encounter";
-import HomePage from "./HomePage";
+import Encounter from "./Encounter/Encounter";
+import HomePage from "./HomePage/HomePage";
 
 function EncounterRouter(props: IEncounterRouterProps) {
   const params = useParams<IRouterParams>();
