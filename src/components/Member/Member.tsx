@@ -9,7 +9,7 @@ function Member(props: IMember) {
   const roleLabel = `${props.role}`
 
   return (
-      <Col xs={4} sm className="justify-content-center">
+      <Col xs={4} sm={2} className="member justify-content-center">
         <div className="text" title={roleLabel}>{roleLabel}</div>
         <img src={classImage} alt={props.profession} className="class-image" />
         <div className="text" title={props.name}>{props.name}</div>
