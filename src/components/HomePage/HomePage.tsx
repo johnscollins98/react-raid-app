@@ -19,15 +19,9 @@ function HomePage(props: IHomeProps) {
   return (
     <Container fluid>
       <Row>
-        <img src={logoGif} width="100px" height="100px" className="logo" alt="logo" />
-      </Row>
-      <Row>
-        <Col>
+        <Col className="justify-content-center align-items-center">
+          <img src={logoGif} className="logo" alt="logo" />
           <h1>Sunspear Order</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
           {alertMessage(props.errorMessage)}
         </Col>
       </Row>
