@@ -1,17 +1,10 @@
-.subgroup {
-  display: flex;
-  align-items: center;
-}
-
 .subgroup-label {
-  flex: 0 0 20%;
   text-align: center;
-  justify-self: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.members {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
+.subgroup {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

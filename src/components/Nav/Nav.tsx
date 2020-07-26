@@ -1,13 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav as BSNav, Navbar, NavDropdown } from "react-bootstrap";
+import { NavLink as RRNavLink } from 'react-router-dom';
+import NavLink from 'react-bootstrap/NavLink';
+import BSNav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import { INavProps, IWing, IEncounter } from '../../utilities/Interfaces';
 
 function getDropdownLinks(wing: IWing) {
   return wing.encounters.map((encounter: IEncounter) => {
     const link = `/encounter/${wing.id}/${encounter.id}`;
-    return <NavDropdown.Item as={Link} to={link} key={encounter.id} eventKey={encounter.id}>{encounter.label}</NavDropdown.Item>
+    return <NavDropdown.Item as={RRNavLink} exact to={link} key={encounter.id} activeClassName="active">{encounter.label}</NavDropdown.Item>
   })
 }
 
@@ -25,7 +29,7 @@ function Nav(props: INavProps) {
   const logo_image = require("../../assets/images/SO_Logo.png");
   return (
     <Navbar bg="dark" fixed="top" variant="dark" expand="lg">
-      <Navbar.Brand as={Link} to="/">
+      <Navbar.Brand as={RRNavLink} exact to="/">
         <img
           alt="Logo"
           src={logo_image}
@@ -39,7 +43,7 @@ function Nav(props: INavProps) {
       <Navbar.Collapse id="basic-navbar-nav">
         <BSNav className="mr-auto">
           <BSNav.Item>
-            <BSNav.Link eventKey="home" as={Link} to="/">Home</BSNav.Link>
+            <NavLink activeClassName="active" as={RRNavLink} exact to="/">Home</NavLink>
           </BSNav.Item>
           {getDropdowns(props.wings)}
         </BSNav>
