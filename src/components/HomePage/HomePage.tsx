@@ -3,7 +3,6 @@ import Alert from 'react-bootstrap/Alert';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 
 import './HomePage.css';
 import { IHomeProps } from "../../utilities/Interfaces";
