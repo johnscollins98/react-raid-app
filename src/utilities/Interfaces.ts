@@ -20,6 +20,10 @@ export interface ISkillProps {
   id: string;
 }
 
+export interface IBoonEmbedProps {
+  id: string;
+}
+
 export interface IRoleEmbedProps {
   role: string;
   profession: string;
