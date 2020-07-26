@@ -16,7 +16,7 @@ function Encounter(props: IEncounter) {
     <div className="encounter">
       <Container fluid>
         <Row>
-          <Col lg={8}>
+          <Col lg>
             <Row className="align-items-center justify-content-center">
               <Col xs="auto">
                 <img src={bossImage} alt={props.label} className="boss-image" />
@@ -38,7 +38,7 @@ function Encounter(props: IEncounter) {
               </Col>
             </Row>
           </Col>
-          <Col lg={4}>
+          <Col lg>
             <div className="raid-notes">
               {
                 props.notes.map((note) => (
