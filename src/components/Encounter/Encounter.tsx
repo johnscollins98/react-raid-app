@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 import './Encounter.css';
 import { IEncounter } from '../../utilities/Interfaces';
-import NoteMap from '../EncounterNotes/NoteMap';
+import NoteMap from '../../utilities/NoteMap';
 
 import Subgroup from '../Subgroup/Subgroup';
 
