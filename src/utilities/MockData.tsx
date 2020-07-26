@@ -1,4 +1,4 @@
-import { IEncounter, INote, ISubgroup, IWing } from "./Interfaces"
+import { IEncounter, ISubgroup, IWing } from "./Interfaces"
 
 export const mockSubgroupOne : ISubgroup = {
   label: "Subgroup 1",
@@ -22,16 +22,10 @@ export const mockSubgroupTwo : ISubgroup = {
   ]
 }
 
-export const mockNotes : Array<INote> = [
-  {heading: "Heading 1", points: ["Point 1.1", "Point 1.2"]},
-  {heading: "Heading 2", points: ["Point 2.1", "Point 2.2"]},
-]
-
 export const mockEncounter : IEncounter = {
   id: "vale_guardian",
   label: "Vale Guardian",
   imageName: "vale_guardian.png",
-  notes: mockNotes,
   composition: [
     mockSubgroupOne,
     mockSubgroupTwo

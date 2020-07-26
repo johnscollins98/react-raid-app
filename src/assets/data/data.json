@@ -68,22 +68,6 @@
               }
             ]
           }
-        ],
-        "notes": [
-          {
-            "heading": "General",
-            "points": [
-              "Druid tank.",
-              "Be good."
-            ]
-          },
-          {
-            "heading": "Split Phase",
-            "points": [
-              "x do this",
-              "y do this"
-            ]
-          }
         ]
       },
       {
@@ -96,7 +80,7 @@
             "members": [
               {
                 "profession": "chronomancer",
-                "role": "Quickness",
+                "role": "Pwr Boon",
                 "name": "CrackedSass"
               },
               {
@@ -106,17 +90,17 @@
               },
               {
                 "profession": "berserker",
-                "role": "Power BS",
+                "role": "Pwr Banner",
                 "name": "Elosia"
               },
               {
                 "profession": "chronomancer",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Blaster"
               },
               {
                 "profession": "dragonhunter",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Millie"
               }
             ]
@@ -126,33 +110,32 @@
             "members": [
               {
                 "profession": "firebrand",
-                "role": "Heal",
+                "role": "Cnd QB Tank",
                 "name": "Whiskers"
               },
               {
                 "profession": "renegade",
-                "role": "Power Alacrity",
+                "role": "Pwr Alac",
                 "name": "Miruna"
               },
               {
                 "profession": "holosmith",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Deekay"
               },
               {
                 "profession": "holosmith",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Quan"
               },
               {
                 "profession": "holosmith",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Banana"
               }
             ]
           }
-        ],
-        "notes": []
+        ]
       }
     ]
   },
