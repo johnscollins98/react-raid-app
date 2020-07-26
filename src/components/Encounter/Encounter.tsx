@@ -16,23 +16,29 @@ function Encounter(props: IEncounter) {
     <div className="encounter">
       <Container fluid>
         <Row>
-          <Col lg>
-            <div className="boss-header">
-              <img src={bossImage} alt={props.label} className="boss-image" />
-              <h1 className="boss-title">{props.label}</h1>
-            </div>
-            <div className="composition">
-              {
-                props.composition.map((subgroup, i) => (
-                  <div key={subgroup.label}>
-                    <Subgroup {...subgroup} />
-                    {(props.composition[i + 1] != null) ? <div className="rule" /> : null}
-                  </div>
-                ))
-              }
-            </div>
+          <Col lg={8}>
+            <Row className="align-items-center justify-content-center">
+              <Col xs="auto">
+                <img src={bossImage} alt={props.label} className="boss-image" />
+              </Col>
+              <Col xs="auto">
+                <h1 className="boss-title">{props.label}</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                {
+                  props.composition.map((subgroup, i) => (
+                    <div key={subgroup.label}>
+                      <Subgroup {...subgroup} />
+                      {(props.composition[i + 1] != null) ? <div className="rule" /> : null}
+                    </div>
+                  ))
+                }
+              </Col>
+            </Row>
           </Col>
-          <Col lg>
+          <Col lg={4}>
             <div className="raid-notes">
               {
                 props.notes.map((note) => (

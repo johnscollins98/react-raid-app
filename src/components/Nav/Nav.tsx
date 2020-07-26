@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav as BSNav, Navbar, NavDropdown } from "react-bootstrap";
+import BSNav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import { INavProps, IWing, IEncounter } from '../../utilities/Interfaces';
 

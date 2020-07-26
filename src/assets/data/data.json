@@ -13,27 +13,27 @@
             "members": [
               {
                 "profession": "chronomancer",
-                "role": "Quickness",
+                "role": "Pwr Boon",
                 "name": "CrackedSass"
               },
               {
                 "profession": "druid",
-                "role": "Heal",
+                "role": "Heal Tank",
                 "name": "Thillar"
               },
               {
                 "profession": "berserker",
-                "role": "Power BS",
+                "role": "Pwr Banner",
                 "name": "Elosia"
               },
               {
                 "profession": "weaver",
-                "role": "Condition",
+                "role": "Cnd",
                 "name": "Blaster"
               },
               {
                 "profession": "firebrand",
-                "role": "Condition",
+                "role": "Cnd",
                 "name": "Millie"
               }
             ]
@@ -48,22 +48,22 @@
               },
               {
                 "profession": "renegade",
-                "role": "Power Alacrity",
+                "role": "Pwr Alac",
                 "name": "Miruna"
               },
               {
                 "profession": "holosmith",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Deekay"
               },
               {
                 "profession": "holosmith",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Quan"
               },
               {
                 "profession": "holosmith",
-                "role": "Power",
+                "role": "Pwr",
                 "name": "Banana"
               }
             ]

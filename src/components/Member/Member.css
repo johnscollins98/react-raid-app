@@ -1,17 +1,20 @@
 .member {
   display: flex;
-  flex: 20%;
-  max-width: 20%;
   flex-direction: column;
-  height: auto;
-  text-align: center;
-  align-items: center;
-  font-size: 12px;
-  min-width: 70px;
 }
 
+.text {
+  text-align: center;
+  max-width: 100%;
+  padding: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+
 .class-image {
+  display: block;
   width: 100%;
-  min-width: 60px;
+  max-width: 80px;
+  margin: auto;
   height: auto;
 }

@@ -1,20 +1,5 @@
-.boss-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.composition {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin: auto;
-}
-
 .boss-title {
   text-align: center;
-  margin-left: 10px;
 }
 
 .rule {
