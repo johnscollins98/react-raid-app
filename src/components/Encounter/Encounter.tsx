@@ -48,7 +48,7 @@ function Encounter(props: IEncounter) {
             </Row>
           </Col>
           <Col lg>
-            {NoteMap.get(props.id)()}
+            {NoteMap.get(props.id)}
           </Col>
         </Row>
       </Container>
