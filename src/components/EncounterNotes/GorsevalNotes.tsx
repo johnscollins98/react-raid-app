@@ -9,11 +9,7 @@ function GorsevalNotes() {
     <div>
       <h3>General</h3>
       <ul>
-        <li><RoleEmbed role="Cnd QB" profession="firebrand" /> tanks the boss.</li>
-        <li>
-          <RoleEmbed role="Cnd QB" profession="firebrand" /> take <GW2Skill id="9153" /> to provide
-          &nbsp;<BoonEmbed id="stability"/> for <GW2Skill id="31875" />
-        </li>
+        <li><RoleEmbed role="Cnd Boon" profession="firebrand" /> tanks the boss.</li>
         <li>
           <RoleEmbed role="Pwr Boon" profession="chronomancer" /> pull adds with <GW2Skill id="10186" />
         </li>
@@ -24,6 +20,17 @@ function GorsevalNotes() {
         <li>
           <RoleEmbed role="Pwr Banner" profession="berserker" /> remember that <GW2Skill id="30343" /> strips
           &nbsp;<BoonEmbed id="stability" />.
+        </li>
+      </ul>
+      <h3>Gorseval's Slams</h3>
+      <ul>
+        <li>
+          <RoleEmbed role="Cnd Boon" profession="firebrand" /> take <GW2Skill id="41475" /> to provide your
+          subgroup <BoonEmbed id="aegis" /> for <GW2Skill id="31875" />
+        </li>
+        <li>
+          <RoleEmbed role="Pwr Boon" profession="chronomancer" /> take <GW2Skill id="10238" /> to provide your
+          subgroup <BoonEmbed id="stability" /> for <GW2Skill id="31875" />
         </li>
       </ul>
       <h3>
