@@ -591,11 +591,78 @@
               },
               {
                 "profession": "firebrand",
-                "role": "Cnd Boon",
+                "role": "Heal",
                 "name": "Whiskers"
               },
               {
                 "profession": "soulbeast",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xera",
+        "label": "Xera",
+        "imageName": "xera.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Quan"
               },
