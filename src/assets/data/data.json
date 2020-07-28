@@ -149,7 +149,7 @@
                 "profession": "renegade",
                 "role": "Cnd Boon",
                 "name": "Blaster"
-              }, 
+              },
               {
                 "profession": "berserker",
                 "role": "Pwr Banner",
@@ -159,12 +159,12 @@
                 "profession": "druid",
                 "role": "Heal",
                 "name": "Thillar"
-              }, 
+              },
               {
                 "profession": "firebrand",
                 "role": "Cnd Boon",
                 "name": "CrackedSass"
-              }, 
+              },
               {
                 "profession": "firebrand",
                 "role": "Cnd",
@@ -179,7 +179,7 @@
                 "profession": "renegade",
                 "role": "Cnd Boon",
                 "name": "Miruna"
-              }, 
+              },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
@@ -189,12 +189,12 @@
                 "profession": "firebrand",
                 "role": "Cnd Boon",
                 "name": "Whiskers"
-              }, 
+              },
               {
                 "profession": "firebrand",
                 "role": "Cnd",
                 "name": "Quan"
-              }, 
+              },
               {
                 "profession": "firebrand",
                 "role": "Cnd",
@@ -261,17 +261,17 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Deekay" 
+                "name": "Deekay"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan" 
+                "name": "Quan"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Banana" 
+                "name": "Banana"
               }
             ]
           }
@@ -339,6 +339,68 @@
                 "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "matthias",
+        "label": "Matthias Gabriel",
+        "imageName": "matthias.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "daredevil",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Cnd",
+                "name": "Banana"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "scourge",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Quan"
               }
             ]
           }
