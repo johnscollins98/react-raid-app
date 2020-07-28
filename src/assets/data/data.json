@@ -48,7 +48,7 @@
               },
               {
                 "profession": "renegade",
-                "role": "Pwr Alac",
+                "role": "Pwr Boon",
                 "name": "Miruna"
               },
               {
@@ -110,12 +110,12 @@
             "members": [
               {
                 "profession": "firebrand",
-                "role": "Cnd QB Tank",
+                "role": "Cnd Boon",
                 "name": "Whiskers"
               },
               {
                 "profession": "renegade",
-                "role": "Pwr Alac",
+                "role": "Pwr Boon",
                 "name": "Miruna"
               },
               {
@@ -132,6 +132,73 @@
                 "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sabetha",
+        "label": "Sabetha the Saboteur",
+        "imageName": "sabetha.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Blaster"
+              }, 
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              }, 
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "CrackedSass"
+              }, 
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              }, 
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              }, 
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Quan"
+              }, 
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
               }
             ]
           }
@@ -188,7 +255,7 @@
               },
               {
                 "profession": "renegade",
-                "role": "Pwr Alac",
+                "role": "Pwr Boon",
                 "name": "Miruna"
               },
               {
@@ -255,7 +322,7 @@
               },
               {
                 "profession": "renegade",
-                "role": "Pwr Alac",
+                "role": "Pwr Boon",
                 "name": "Miruna"
               },
               {
