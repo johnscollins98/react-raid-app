@@ -142,6 +142,74 @@
   {
     "id": "w2",
     "label": "Salvation Pass",
-    "encounters": []
+    "encounters": [
+      {
+        "id": "slothasor",
+        "label": "Slothasor",
+        "imageName": "slothasor.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Alac",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay" 
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan" 
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana" 
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
