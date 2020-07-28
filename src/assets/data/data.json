@@ -681,5 +681,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "w4",
+    "label": "Bastion of the Penitent",
+    "encounters": [
+      {
+        "id": "cairn",
+        "label": "Cairn the Indomitable",
+        "imageName": "cairn.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Banana"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Blaster"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
