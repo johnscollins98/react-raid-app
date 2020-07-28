@@ -9,17 +9,24 @@ export interface ISubgroup {
   members: Array<IMember>;
 }
 
-export interface INote {
-  heading: string;
-  points: Array<string>;
-}
-
 export interface IEncounter {
   id: string;
   label: string;
   imageName: string;
   composition: Array<ISubgroup>;
-  notes: Array<INote>;
+}
+
+export interface ISkillProps {
+  id: string;
+}
+
+export interface IBoonEmbedProps {
+  id: string;
+}
+
+export interface IRoleEmbedProps {
+  role: string;
+  profession: string;
 }
 
 export interface IWing {

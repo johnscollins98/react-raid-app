@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './Encounter.css';
+import { IEncounter } from '../../utilities/Interfaces';
+import NoteMap from '../../utilities/NoteMap';
 
 import Subgroup from '../Subgroup/Subgroup';
-import Note from '../Note/Note';
-import { IEncounter } from '../../utilities/Interfaces';
 
 function Encounter(props: IEncounter) {
   const bossImage = require(`../../assets/images/boss_images/${props.imageName}`);
+
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src = "https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+  });
 
   return (
     <div className="encounter">
@@ -39,13 +48,7 @@ function Encounter(props: IEncounter) {
             </Row>
           </Col>
           <Col lg>
-            <div className="raid-notes">
-              {
-                props.notes.map((note) => (
-                  <Note {...note} key={`${props.label}-${note.heading}`} />
-                ))
-              }
-            </div>
+            {NoteMap.get(props.id)}
           </Col>
         </Row>
       </Container>
