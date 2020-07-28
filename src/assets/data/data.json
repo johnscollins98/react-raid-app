@@ -407,5 +407,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "w3",
+    "label": "Stronghold of the Faithful",
+    "encounters": [
+      {
+        "id": "escort",
+        "label": "Siege the Stronghold",
+        "imageName": "escort.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Tower",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Back Warg",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
