@@ -752,6 +752,83 @@
             ]
           }
         ]
+      },
+      {
+        "id": "mursaat-overseer",
+        "label": "Mursaat Overseer",
+        "imageName": "mursaat_overseer.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "daredevil",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 3",
+            "members": [
+              {
+                "profession": "berserker",
+                "role": "Power BS",
+                "name": "Elosia"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 4",
+            "members": [
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Thillar"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
