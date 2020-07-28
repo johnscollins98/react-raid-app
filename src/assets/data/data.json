@@ -209,6 +209,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "trio",
+        "label": "Bandit Trio",
+        "imageName": "trio.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Alac",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
