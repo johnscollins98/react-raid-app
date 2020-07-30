@@ -48,7 +48,7 @@
               },
               {
                 "profession": "renegade",
-                "role": "Pwr Alac",
+                "role": "Pwr Boon",
                 "name": "Miruna"
               },
               {
@@ -110,12 +110,12 @@
             "members": [
               {
                 "profession": "firebrand",
-                "role": "Cnd QB Tank",
+                "role": "Cnd Boon",
                 "name": "Whiskers"
               },
               {
                 "profession": "renegade",
-                "role": "Pwr Alac",
+                "role": "Pwr Boon",
                 "name": "Miruna"
               },
               {
@@ -136,12 +136,1656 @@
             ]
           }
         ]
+      },
+      {
+        "id": "sabetha",
+        "label": "Sabetha the Saboteur",
+        "imageName": "sabetha.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
     "id": "w2",
     "label": "Salvation Pass",
-    "encounters": []
+    "encounters": [
+      {
+        "id": "slothasor",
+        "label": "Slothasor",
+        "imageName": "slothasor.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trio",
+        "label": "Bandit Trio",
+        "imageName": "trio.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "matthias",
+        "label": "Matthias Gabriel",
+        "imageName": "matthias.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "daredevil",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Cnd",
+                "name": "Banana"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "scourge",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Quan"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w3",
+    "label": "Stronghold of the Faithful",
+    "encounters": [
+      {
+        "id": "escort",
+        "label": "Siege the Stronghold",
+        "imageName": "escort.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Tower",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Back Warg",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "tempest",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "keep-construct",
+        "label": "Keep Construct",
+        "imageName": "keep-construct.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "soulbeast",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "twisted-castle",
+        "label": "Twisted Castle",
+        "imageName": "twisted-castle.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "soulbeast",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xera",
+        "label": "Xera",
+        "imageName": "xera.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w4",
+    "label": "Bastion of the Penitent",
+    "encounters": [
+      {
+        "id": "cairn",
+        "label": "Cairn the Indomitable",
+        "imageName": "cairn.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Banana"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Blaster"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mursaat-overseer",
+        "label": "Mursaat Overseer",
+        "imageName": "mursaat_overseer.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "daredevil",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 3",
+            "members": [
+              {
+                "profession": "berserker",
+                "role": "Power BS",
+                "name": "Elosia"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 4",
+            "members": [
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "samarog",
+        "label": "Samarog",
+        "imageName": "samarog.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "daredevil",
+                "role": "Pwr",
+                "name": "CrackedSass"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "deimos",
+        "label": "Deimos",
+        "imageName": "deimos.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "herald",
+                "role": "Hand Kite",
+                "name": "Quan"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w5",
+    "label": "Hall of Chains",
+    "encounters": [
+      {
+        "id": "desmina",
+        "label": "Soulless Horror",
+        "imageName": "desmina.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "scourge",
+                "role": "Cnd",
+                "name": "Banana"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Blaster"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "mirage",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "river",
+        "label": "River of Souls",
+        "imageName": "river.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Quan"
+              },
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Escort",
+                "name": "Thillar"
+              },
+              {
+                "profession": "scrapper",
+                "role": "Superspeed",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ice-king",
+        "label": "Statue of Ice",
+        "imageName": "ice-king.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Quan"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "soul-eater",
+        "label": "Statue of Death",
+        "imageName": "soul-eater.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eyes",
+        "label": "Statue of Darkness",
+        "imageName": "eyes.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Orbs",
+                "name": "Banana"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr",
+                "name": "Elosia"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Orbs",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Milie"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dhuum",
+        "label": "The Voice in the Void",
+        "imageName": "dhuum.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Banana"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "druid",
+                "role": "Kite",
+                "name": "Quan"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd",
+                "name": "Blaster"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w6",
+    "label": "Mythwright Gambit",
+    "encounters": [
+      {
+        "id": "conjured-amalgamate",
+        "label": "Conjured Amalgamate",
+        "imageName": "conjured-amalgamate.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "weaver",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "largos",
+        "label": "Twin Largos",
+        "imageName": "largos.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Banana"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Blaster"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qadim",
+        "label": "Qadim",
+        "imageName": "qadim.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon Tank",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "daredevil",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Lamp",
+                "name": "Quan"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Kite",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w7",
+    "label": "Key of Adashim",
+    "encounters": [
+      {
+        "id": "adina",
+        "label": "Cardinal Adina",
+        "imageName": "adina.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "thief",
+                "role": "Heal Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sabir",
+        "label": "Cardinal Sabir",
+        "imageName": "sabir.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Blaster"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qadimp",
+        "label": "Qadim the Peerless",
+        "imageName": "qadimp.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Banana"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Pylon",
+                "name": "Quan"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Pylon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Pylon",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
