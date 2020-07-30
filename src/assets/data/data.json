@@ -1580,5 +1580,78 @@
         ]
       }
     ]
+  },
+  {
+    "id": "w7",
+    "label": "Key of Adashim",
+    "encounters": [
+      {
+        "id": "adina",
+        "label": "Cardinal Adina",
+        "imageName": "adina.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "thief",
+                "role": "Heal Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
