@@ -1103,6 +1103,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "ice-king",
+        "label": "Statue of Ice",
+        "imageName": "ice-king.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Quan"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Whiskers"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
