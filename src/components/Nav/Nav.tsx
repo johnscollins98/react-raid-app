@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { NavLink as RRNavLink } from 'react-router-dom';
-import NavLink from 'react-bootstrap/NavLink';
 import BSNav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import { INavProps, IWing, IEncounter } from '../../utilities/Interfaces';
+
+enum ELabelKeys {
+  short = 1,
+  medium,
+  long
+}
 
 function getDropdownLinks(wing: IWing) {
   return wing.encounters.map((encounter: IEncounter) => {
@@ -14,21 +19,54 @@ function getDropdownLinks(wing: IWing) {
   })
 }
 
-function getDropdowns(wings: Array<IWing>) {
+function getLabel(wing: IWing, labelKey: ELabelKeys) {
+  switch (labelKey) {
+    case ELabelKeys.short:
+      return wing.wingLabel;
+    case ELabelKeys.medium:
+      return wing.wingName;
+    default:
+      return `${wing.wingLabel}: ${wing.wingName}`;
+  }
+}
+
+function getDropdowns(wings: Array<IWing>, labelKey: ELabelKeys) {
   return wings.map((wing: IWing) => (
     <BSNav.Item key={wing.id}>
-      <NavDropdown title={wing.label} id="basic-nav-dropdown">
+      <NavDropdown title={getLabel(wing, labelKey)} id="basic-nav-dropdown">
         {getDropdownLinks(wing)}
       </NavDropdown>
     </BSNav.Item>
   ))
 }
 
+function getLabelKey() {
+  const windowWidth = window.innerWidth;
+
+  if (windowWidth < 1000) {
+    return ELabelKeys.long;
+  } else if (windowWidth < 1500) {
+    return ELabelKeys.short;
+  } else if (windowWidth < 1800) {
+    return ELabelKeys.medium; 
+  } else {
+    return ELabelKeys.long;
+  }
+}
+
 function Nav(props: INavProps) {
+  const barRef = useRef<HTMLHeadingElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const brandRef = useRef<HTMLAnchorElement>(null);
+
+  const [labelKey, setLabelKey] = useState(getLabelKey());
   const logo_image = require("../../assets/images/SO_Logo.png");
+
+  window.addEventListener("resize", () => setLabelKey(getLabelKey()))
+
   return (
-    <Navbar bg="dark" fixed="top" variant="dark" expand="lg">
-      <Navbar.Brand as={RRNavLink} exact to="/">
+    <Navbar bg="dark" ref={barRef} fixed="top" variant="dark" expand="lg">
+      <Navbar.Brand as={RRNavLink} ref={brandRef} exact to="/">
         <img
           alt="Logo"
           src={logo_image}
@@ -40,8 +78,8 @@ function Nav(props: INavProps) {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <BSNav className="mr-auto">
-          {getDropdowns(props.wings)}
+        <BSNav className="mr-auto" ref={contentRef}>
+          {getDropdowns(props.wings, labelKey)}
         </BSNav>
       </Navbar.Collapse>
     </Navbar>

@@ -34,6 +34,7 @@ export const mockEncounter : IEncounter = {
 
 export const mockWing : IWing = {
   id: "w1",
-  label: "Spirit Vale",
+  wingLabel: "Wing 1",
+  wingName: "Spirit Vale",
   encounters: [mockEncounter]
 }
