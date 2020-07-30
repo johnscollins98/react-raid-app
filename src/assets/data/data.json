@@ -1304,6 +1304,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "dhuum",
+        "label": "The Voice in the Void",
+        "imageName": "dhuum.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Banana"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "druid",
+                "role": "Kite",
+                "name": "Quan"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd",
+                "name": "Blaster"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
