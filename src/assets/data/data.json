@@ -1651,6 +1651,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "sabir",
+        "label": "Cardinal Sabir",
+        "imageName": "sabir.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Quan"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Blaster"
+              },
+              {
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
