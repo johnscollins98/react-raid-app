@@ -31,7 +31,8 @@ export interface IRoleEmbedProps {
 
 export interface IWing {
   id: string,
-  label: string,
+  wingLabel: string,
+  wingName: string,
   encounters: Array<IEncounter>
 }
 
