@@ -2,10 +2,18 @@ h1 {
   text-align: center;
 }
 
+.content {
+  padding: 0;
+}
+
+.fill {
+  height: 100%;
+}
+
 .logo {
   display: block;
-  max-width: 300px;
-  width: 100%;
+  max-width: 500px;
+  width: 60%;
   height: auto;
   margin: auto;
   justify-self: center;
