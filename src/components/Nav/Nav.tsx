@@ -65,7 +65,7 @@ function Nav(props: INavProps) {
   window.addEventListener("resize", () => setLabelKey(getLabelKey()))
 
   return (
-    <Navbar bg="dark" ref={barRef} fixed="top" variant="dark" expand="lg">
+    <Navbar ref={barRef} fixed="top" variant="dark" expand="lg" style={{backgroundColor: "rgba(0,0,0,0.95)"}}>
       <Navbar.Brand as={RRNavLink} ref={brandRef} exact to="/">
         <img
           alt="Logo"
