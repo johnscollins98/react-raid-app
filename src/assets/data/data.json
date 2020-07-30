@@ -1170,6 +1170,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "soul-eater",
+        "label": "Statue of Death",
+        "imageName": "soul-eater.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Banana"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
