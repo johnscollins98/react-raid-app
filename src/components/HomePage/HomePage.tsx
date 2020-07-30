@@ -17,10 +17,10 @@ function HomePage(props: IHomeProps) {
   const logoGif = require("../../assets/images/SO_Logo.gif")
 
   return (
-    <div className="fill"> 
+    <div className="fill">
       <div className="background" style={{ backgroundImage: `url(${require("../../assets/images/backgrounds/desert.jpg")})` }} />
       <Container fluid className="fill">
-        <Row className="align-content-center fill">
+        <Row className="align-items-center fill">
           <Col className="justify-content-center">
             <img src={logoGif} className="logo" alt="logo" />
             <h1>Sunspear Order</h1>
