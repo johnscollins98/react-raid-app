@@ -41,9 +41,6 @@ function Nav(props: INavProps) {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <BSNav className="mr-auto">
-          <BSNav.Item>
-            <NavLink activeClassName="active" as={RRNavLink} exact to="/">Home</NavLink>
-          </BSNav.Item>
           {getDropdowns(props.wings)}
         </BSNav>
       </Navbar.Collapse>
