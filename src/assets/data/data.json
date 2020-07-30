@@ -1511,6 +1511,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "qadim",
+        "label": "Qadim",
+        "imageName": "qadim.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon Tank",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Deekay"
+              },
+              {
+                "profession": "daredevil",
+                "role": "Pwr",
+                "name": "Blaster"
+              },
+              {
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "tempest",
+                "role": "Heal",
+                "name": "Thillar"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Millie"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Lamp",
+                "name": "Quan"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Kite",
+                "name": "Banana"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
