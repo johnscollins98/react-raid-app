@@ -1,7 +1,8 @@
 [
   {
     "id": "w1",
-    "label": "Spirit Vale",
+    "wingLabel": "Wing 1",
+    "wingName": "Spirit Vale",
     "encounters": [
       {
         "id": "vale_guardian",
@@ -208,7 +209,8 @@
   },
   {
     "id": "w2",
-    "label": "Salvation Pass",
+    "wingLabel": "Wing 2",
+    "wingName": "Salvation Pass",
     "encounters": [
       {
         "id": "slothasor",
@@ -410,7 +412,8 @@
   },
   {
     "id": "w3",
-    "label": "Stronghold of the Faithful",
+    "wingLabel": "Wing 3",
+    "wingName": "Stronghold of the Faithful",
     "encounters": [
       {
         "id": "escort",
@@ -684,7 +687,8 @@
   },
   {
     "id": "w4",
-    "label": "Bastion of the Penitent",
+    "wingLabel": "Wing 4",
+    "wingName": "Bastion of the Penitent",
     "encounters": [
       {
         "id": "cairn",
@@ -968,7 +972,8 @@
   },
   {
     "id": "w5",
-    "label": "Hall of Chains",
+    "wingLabel": "Wing 5",
+    "wingName": "Hall of Chains",
     "encounters": [
       {
         "id": "desmina",
@@ -1376,7 +1381,8 @@
   },
   {
     "id": "w6",
-    "label": "Mythwright Gambit",
+    "wingLabel": "Wing 6",
+    "wingName": "Mythwright Gambit",
     "encounters": [
       {
         "id": "conjured-amalgamate",
@@ -1583,7 +1589,8 @@
   },
   {
     "id": "w7",
-    "label": "Key of Adashim",
+    "wingLabel": "Wing 7",
+    "wingName": "Key of Adashim",
     "encounters": [
       {
         "id": "adina",
