@@ -1237,6 +1237,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "eyes",
+        "label": "Statue of Darkness",
+        "imageName": "eyes.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Orbs",
+                "name": "Banana"
+              },
+              {
+                "profession": "berserker",
+                "role": "Pwr",
+                "name": "Elosia"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Quan"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Miruna"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Orbs",
+                "name": "Thillar"
+              },
+              {
+                "profession": "dragonhunter",
+                "role": "Pwr",
+                "name": "Milie"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
