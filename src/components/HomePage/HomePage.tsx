@@ -17,15 +17,18 @@ function HomePage(props: IHomeProps) {
   const logoGif = require("../../assets/images/SO_Logo.gif")
 
   return (
-    <Container fluid>
-      <Row>
-        <Col className="justify-content-center align-items-center">
-          <img src={logoGif} className="logo" alt="logo" />
-          <h1>Sunspear Order</h1>
-          {alertMessage(props.errorMessage)}
-        </Col>
-      </Row>
-    </Container>
+    <div className="fill"> 
+      <div className="background" style={{ backgroundImage: `url(${require("../../assets/images/backgrounds/desert.jpg")})` }} />
+      <Container fluid className="fill">
+        <Row className="align-content-center fill">
+          <Col className="justify-content-center">
+            <img src={logoGif} className="logo" alt="logo" />
+            <h1>Sunspear Order</h1>
+            {alertMessage(props.errorMessage)}
+          </Col>
+        </Row>
+      </Container>
+    </div>
   )
 }
 

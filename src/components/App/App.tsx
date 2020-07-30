@@ -19,16 +19,14 @@ function App() {
   return (
     <Router>
       <Nav wings={wings} />
-      <div className="content">
-        <Switch>
-          <Route path="/encounter/:wing/:encounter">
-            <EncounterRouter wings={wings} />
-          </Route>
-          <Route path="/">
-            <HomePage errorMessage="" />
-          </Route>
-        </Switch>
-      </div>
+      <Switch>
+        <Route path="/encounter/:wing/:encounter">
+          <EncounterRouter wings={wings} />
+        </Route>
+        <Route path="/">
+          <HomePage errorMessage="" />
+        </Route>
+      </Switch>
     </Router>
   );
 }
