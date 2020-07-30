@@ -1718,6 +1718,73 @@
             ]
           }
         ]
+      },
+      {
+        "id": "qadimp",
+        "label": "Qadim the Peerless",
+        "imageName": "qadimp.png",
+        "composition": [
+          {
+            "label": "Subgroup 1",
+            "members": [
+              {
+                "profession": "chronomancer",
+                "role": "Pwr Boon",
+                "name": "Blaster"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "berserker",
+                "role": "Cnd Banner",
+                "name": "Elosia"
+              },
+              {
+                "profession": "druid",
+                "role": "Heal",
+                "name": "Whiskers"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Millie"
+              }
+            ]
+          },
+          {
+            "label": "Subgroup 2",
+            "members": [
+              {
+                "profession": "firebrand",
+                "role": "Heal Tank",
+                "name": "Thillar"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd Boon",
+                "name": "Banana"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Pylon",
+                "name": "Quan"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Pylon",
+                "name": "CrackedSass"
+              },
+              {
+                "profession": "deadeye",
+                "role": "Pylon",
+                "name": "Deekay"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
