@@ -1683,9 +1683,9 @@
                 "name": "Thillar"
               },
               {
-                "profession": "firebrand",
-                "role": "Cnd",
-                "name": "Deekay"
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
               },
               {
                 "profession": "firebrand",
@@ -1708,18 +1708,18 @@
                 "name": "Miruna"
               },
               {
-                "profession": "chronomancer",
-                "role": "Cnd",
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
                 "name": "Quan"
               },
               {
-                "profession": "chronomancer",
-                "role": "Cnd",
-                "name": "Blaster"
-              },
-              {
-                "profession": "chronomancer",
-                "role": "Cnd",
+                "profession": "holosmith",
+                "role": "Pwr",
                 "name": "Banana"
               }
             ]
