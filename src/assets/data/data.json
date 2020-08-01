@@ -1460,9 +1460,14 @@
             "label": "Subgroup 1",
             "members": [
               {
-                "profession": "chronomancer",
+                "profession": "renegade",
                 "role": "Pwr Boon",
-                "name": "CrackedSass"
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Deekay"
               },
               {
                 "profession": "berserker",
@@ -1473,11 +1478,6 @@
                 "profession": "druid",
                 "role": "Heal",
                 "name": "Whiskers"
-              },
-              {
-                "profession": "firebrand",
-                "role": "Cnd",
-                "name": "Deekay"
               },
               {
                 "profession": "firebrand",
@@ -1495,9 +1495,9 @@
                 "name": "Thillar"
               },
               {
-                "profession": "renegade",
-                "role": "Pwr Boon",
-                "name": "Miruna"
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "CrackedSass"
               },
               {
                 "profession": "chronomancer",
