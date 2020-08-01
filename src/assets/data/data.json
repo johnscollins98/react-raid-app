@@ -812,7 +812,7 @@
             "members": [
               {
                 "profession": "berserker",
-                "role": "Power BS",
+                "role": "Pwr Banner",
                 "name": "Elosia"
               }
             ]
@@ -1460,9 +1460,14 @@
             "label": "Subgroup 1",
             "members": [
               {
-                "profession": "chronomancer",
+                "profession": "renegade",
                 "role": "Pwr Boon",
-                "name": "CrackedSass"
+                "name": "Miruna"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd Boon",
+                "name": "Deekay"
               },
               {
                 "profession": "berserker",
@@ -1473,11 +1478,6 @@
                 "profession": "druid",
                 "role": "Heal",
                 "name": "Whiskers"
-              },
-              {
-                "profession": "firebrand",
-                "role": "Cnd",
-                "name": "Deekay"
               },
               {
                 "profession": "firebrand",
@@ -1495,9 +1495,9 @@
                 "name": "Thillar"
               },
               {
-                "profession": "renegade",
-                "role": "Pwr Boon",
-                "name": "Miruna"
+                "profession": "chronomancer",
+                "role": "Cnd",
+                "name": "CrackedSass"
               },
               {
                 "profession": "chronomancer",
@@ -1683,9 +1683,9 @@
                 "name": "Thillar"
               },
               {
-                "profession": "firebrand",
-                "role": "Cnd",
-                "name": "Deekay"
+                "profession": "chronomancer",
+                "role": "Pwr",
+                "name": "Blaster"
               },
               {
                 "profession": "firebrand",
@@ -1708,18 +1708,18 @@
                 "name": "Miruna"
               },
               {
-                "profession": "chronomancer",
-                "role": "Cnd",
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Deekay"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
                 "name": "Quan"
               },
               {
-                "profession": "chronomancer",
-                "role": "Cnd",
-                "name": "Blaster"
-              },
-              {
-                "profession": "chronomancer",
-                "role": "Cnd",
+                "profession": "holosmith",
+                "role": "Pwr",
                 "name": "Banana"
               }
             ]
