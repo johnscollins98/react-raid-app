@@ -22,7 +22,7 @@ function MatthiasNotes() {
           <GW2Skill id="13132" /> / <GW2Skill id="13012" /> for CC.
         </li>
         <li>
-          If CC is poor, swap <RoleEmbed role="Cnd" profession="berserker" />{" "}
+          If CC is poor, swap <RoleEmbed role="Cnd Banner" profession="berserker" />{" "}
           for <RoleEmbed role="Pwr" profession="berserker" /> with maces.
         </li>
         <li>
