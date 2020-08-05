@@ -9,12 +9,13 @@ import TwistedCastleNotes from "../components/EncounterNotes/TwistedCastle";
 import MursaatOverseerNotes from "../components/EncounterNotes/MursaatOverseerNotes";
 import SamarogNotes from "./../components/EncounterNotes/SamarogNotes";
 import DeimosNotes from "../components/EncounterNotes/DeimosNotes";
+import SabethaNotes from "./../components/EncounterNotes/SabethaNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
 NoteMap.set("vale_guardian", ValeGuardianNotes());
 NoteMap.set("gorseval", GorsevalNotes());
-// TODO: Sabetha
+NoteMap.set("sabetha", SabethaNotes());
 NoteMap.set("slothasor", SlothasorNotes());
 NoteMap.set("trio", BanditTrioNotes());
 NoteMap.set("matthias", MatthiasNotes());
