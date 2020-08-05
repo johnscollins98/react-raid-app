@@ -37,12 +37,6 @@ function KeepConstructNotes() {
           <GW2Skill id="34971" />) to get healing from <GW2Skill id="31677" />.
         </li>
       </ul>
-      <h3>Splitting up</h3>
-      <ul>
-        <li>Circle - CrackedSass, Whiskers, Millie</li>
-        <li>Heart - Elosia, Blaster, Miruna</li>
-        <li>Arrow - Everyone else</li>
-      </ul>
     </div>
   );
 }
