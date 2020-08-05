@@ -23,7 +23,7 @@ function MatthiasNotes() {
         </li>
         <li>
           If CC is poor, swap <RoleEmbed role="Cnd Banner" profession="berserker" />{" "}
-          for <RoleEmbed role="Pwr" profession="berserker" /> with maces.
+          for <RoleEmbed role="Pwr Banner" profession="berserker" /> with maces.
         </li>
         <li>
           <RoleEmbed role="Cnd" profession="firebrand" /> take care to not
