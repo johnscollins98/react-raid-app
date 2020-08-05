@@ -18,7 +18,7 @@ function MatthiasNotes() {
           .
         </li>
         <li>
-          <RoleEmbed role="Boon" profession="thief" /> uses{" "}
+          <RoleEmbed role="Pwr Boon" profession="daredevil" /> uses{" "}
           <GW2Skill id="13132" /> / <GW2Skill id="13012" /> for CC.
         </li>
         <li>
