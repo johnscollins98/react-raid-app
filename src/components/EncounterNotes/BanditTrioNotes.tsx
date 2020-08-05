@@ -8,11 +8,11 @@ function BanditTrioNotes() {
       <h3>Initial Phase</h3>
       <ul>
         <li>Subgroup 1 defends at the bottom.</li>
-        <li>Subgroup 2 stays up at the top</li>
+        <li>Subgroup 2 stays up at the top.</li>
       </ul>
       <h3>Defence Phase</h3>
       <ul>
-        <li>Subgroup 1 stays closer to Narella spawn</li>
+        <li>Subgroup 1 stays closer to Narella spawn.</li>
         <li>Subgroup 2 stays closer to Zane spawn.</li>
       </ul>
       <h3>Individual Jobs</h3>
