@@ -36,7 +36,7 @@ function SlothasorNotes() {
       </h3>
       <ul>
         <li>
-          <RoleEmbed role="Pwr" profession="holosmith" /> please delay
+          <RoleEmbed role="Pwr" profession="holosmith" /> please delay{" "}
           <GW2Skill id="5813" /> and precast just before the CC phase.
         </li>
         <li>
