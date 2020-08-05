@@ -40,7 +40,7 @@ function SlothasorNotes() {
           <GW2Skill id="5813" /> and precast just before the CC phase.
         </li>
         <li>
-          <RoleEmbed role="Pwr" profession="dragonhunter" /> should save
+          <RoleEmbed role="Pwr" profession="dragonhunter" /> should save{" "}
           <GW2Skill id="9093" /> and <GW2Skill id="30273" /> for CC.
         </li>
       </ul>
