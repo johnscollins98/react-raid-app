@@ -13,17 +13,17 @@ function MatthiasNotes() {
           <GW2Skill id="10302" />.
         </li>
         <li>
-          <RoleEmbed role="Boon" profession="thief" /> /{" "}
-          <RoleEmbed role="" profession="druid" /> block <GW2Skill id="34404" />
+          <RoleEmbed role="Pwr Boon" profession="daredevil" /> /{" "}
+          <RoleEmbed role="Heal" profession="druid" /> block <GW2Skill id="34404" />
           .
         </li>
         <li>
-          <RoleEmbed role="Boon" profession="thief" /> uses{" "}
+          <RoleEmbed role="Pwr Boon" profession="daredevil" /> uses{" "}
           <GW2Skill id="13132" /> / <GW2Skill id="13012" /> for CC.
         </li>
         <li>
-          If CC is poor, swap <RoleEmbed role="Cnd" profession="berserker" />{" "}
-          for <RoleEmbed role="Pwr" profession="berserker" /> with maces.
+          If CC is poor, swap <RoleEmbed role="Cnd Banner" profession="berserker" />{" "}
+          for <RoleEmbed role="Pwr Banner" profession="berserker" /> with maces.
         </li>
         <li>
           <RoleEmbed role="Cnd" profession="firebrand" /> take care to not

@@ -22,7 +22,7 @@ NoteMap.set("matthias", MatthiasNotes());
 NoteMap.set("escort", EscortNotes());
 NoteMap.set("keep-construct", KeepConstructNotes());
 NoteMap.set("twisted-castle", TwistedCastleNotes());
-// TODO: Xera
+// TODO: Xera, Cairn
 NoteMap.set("mursaat-overseer", MursaatOverseerNotes());
 NoteMap.set("samarog", SamarogNotes());
 NoteMap.set("deimos", DeimosNotes());

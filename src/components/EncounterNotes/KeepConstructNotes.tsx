@@ -28,12 +28,12 @@ function KeepConstructNotes() {
           WHITE ORBS (and vice versa)
         </li>
         <li>
-          We're doing 2 orbs. <RoleEmbed role="" profession="chronomancer" />{" "}
+          We're doing 2 orbs. <RoleEmbed role="Pwr Boon" profession="chronomancer" />{" "}
           help the <RoleEmbed role="Heal" profession="druid" /> with pushing
         </li>
         <li>Be ready with boons in time for bursting KC.</li>
         <li>
-          Dps and stack tighly after collecting phase (during{" "}
+          DPS and stack tightly after collecting phase (during{" "}
           <GW2Skill id="34971" />) to get healing from <GW2Skill id="31677" />.
         </li>
       </ul>

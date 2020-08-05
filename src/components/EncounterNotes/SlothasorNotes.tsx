@@ -11,7 +11,7 @@ function SlothasorNotes() {
       <ul>
         <li>Keep Sloth at beginning until CC at 80%.</li>
         <li>
-          <RoleEmbed role="Heal" profession="firebrand" /> provides
+          <RoleEmbed role="Heal" profession="firebrand" /> provides{" "}
           <BoonEmbed id="stability" /> after each CC phase.
         </li>
         <li>Tank as close to the middle as possible (face towards middle)</li>
@@ -36,11 +36,11 @@ function SlothasorNotes() {
       </h3>
       <ul>
         <li>
-          <RoleEmbed role="Pwr" profession="holosmith" /> please delay
+          <RoleEmbed role="Pwr" profession="holosmith" /> please delay{" "}
           <GW2Skill id="5813" /> and precast just before the CC phase.
         </li>
         <li>
-          <RoleEmbed role="Pwr" profession="dragonhunter" /> should save
+          <RoleEmbed role="Pwr" profession="dragonhunter" /> should save{" "}
           <GW2Skill id="9093" /> and <GW2Skill id="30273" /> for CC.
         </li>
       </ul>
