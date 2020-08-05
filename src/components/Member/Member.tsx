@@ -5,7 +5,7 @@ import './Member.css';
 import { IMember } from '../../utilities/Interfaces'
 
 function Member(props: IMember) {
-  const classImage = require(`../../assets/images/profession_icons/${props.profession}.png`);
+  const classImage = require(`../../assets/images/profession-icons/${props.profession}.png`);
   const roleLabel = `${props.role}`
 
   return (

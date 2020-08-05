@@ -10,7 +10,7 @@ import NoteMap from '../../utilities/NoteMap';
 import Subgroup from '../Subgroup/Subgroup';
 
 function Encounter(props: IEncounter) {
-  const bossImage = require(`../../assets/images/boss_images/${props.imageName}`);
+  const bossImage = require(`../../assets/images/boss-images/${props.imageName}`);
 
   useEffect(() => {
     const script = document.createElement("script");

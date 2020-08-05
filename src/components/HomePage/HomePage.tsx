@@ -14,7 +14,7 @@ function HomePage(props: IHomeProps) {
     }
   }
 
-  const logoGif = require("../../assets/images/SO_Logo.gif")
+  const logoGif = require("../../assets/images/SO-Logo.gif")
 
   return (
     <div className="fill">

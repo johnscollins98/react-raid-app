@@ -5,9 +5,9 @@
     "wingName": "Spirit Vale",
     "encounters": [
       {
-        "id": "vale_guardian",
+        "id": "vale-guardian",
         "label": "Vale Guardian",
-        "imageName": "vale_guardian.png",
+        "imageName": "vale-guardian.png",
         "composition": [
           {
             "label": "Subgroup 1",
@@ -760,7 +760,7 @@
       {
         "id": "mursaat-overseer",
         "label": "Mursaat Overseer",
-        "imageName": "mursaat_overseer.png",
+        "imageName": "mursaat-overseer.png",
         "composition": [
           {
             "label": "Subgroup 1",

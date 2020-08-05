@@ -13,7 +13,7 @@ import SabethaNotes from "./../components/EncounterNotes/SabethaNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
-NoteMap.set("vale_guardian", ValeGuardianNotes());
+NoteMap.set("vale-guardian", ValeGuardianNotes());
 NoteMap.set("gorseval", GorsevalNotes());
 NoteMap.set("sabetha", SabethaNotes());
 NoteMap.set("slothasor", SlothasorNotes());

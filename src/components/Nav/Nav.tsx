@@ -60,7 +60,7 @@ function Nav(props: INavProps) {
   const brandRef = useRef<HTMLAnchorElement>(null);
 
   const [labelKey, setLabelKey] = useState(getLabelKey());
-  const logo_image = require("../../assets/images/SO_Logo.png");
+  const logoImage = require("../../assets/images/SO-Logo.png");
 
   window.addEventListener("resize", () => setLabelKey(getLabelKey()))
 
@@ -69,7 +69,7 @@ function Nav(props: INavProps) {
       <Navbar.Brand as={RRNavLink} ref={brandRef} exact to="/">
         <img
           alt="Logo"
-          src={logo_image}
+          src={logoImage}
           width="30"
           height="30"
           className="d-inline-block align-top"
