@@ -13,7 +13,7 @@ function MatthiasNotes() {
           <GW2Skill id="10302" />.
         </li>
         <li>
-          <RoleEmbed role="Boon" profession="thief" /> /{" "}
+          <RoleEmbed role="Pwr Boon" profession="daredevil" /> /{" "}
           <RoleEmbed role="" profession="druid" /> block <GW2Skill id="34404" />
           .
         </li>
