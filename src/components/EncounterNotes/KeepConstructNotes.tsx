@@ -33,7 +33,7 @@ function KeepConstructNotes() {
         </li>
         <li>Be ready with boons in time for bursting KC.</li>
         <li>
-          Dps and stack tighly after collecting phase (during{" "}
+          DPS and stack tightly after collecting phase (during{" "}
           <GW2Skill id="34971" />) to get healing from <GW2Skill id="31677" />.
         </li>
       </ul>
