@@ -9,7 +9,7 @@ function KeepConstructNotes() {
       <h3>General</h3>
       <ul>
         <li>
-          <RoleEmbed role="Heal" profession="druid" /> tanks
+          <RoleEmbed role="Heal" profession="druid" /> tanks.
         </li>
         <li>
           <RoleEmbed role="Cnd Boon" profession="firebrand" /> should help out
@@ -20,8 +20,8 @@ function KeepConstructNotes() {
           <GW2Skill id="5857" /> if more healing is needed.
         </li>
         <li>
-          Attack KC during the collecting phase to heal from .
-          <GW2Skill id="21773" />
+          Attack KC during the collecting phase to heal from
+          <GW2Skill id="21773" />.
         </li>
         <li>
           If during the collecting phase you're assigned red color, DO NOT TAKE
