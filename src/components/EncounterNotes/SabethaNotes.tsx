@@ -14,11 +14,11 @@ function SabethaNotes() {
       <h3>Cannons</h3>
       <ul>
         <li>
-          <RoleEmbed role="Banner" profession="berserker" /> does 1-3.
+          One of the <RoleEmbed role="Cnd Boon" profession="renegade" />s does
+          1-3.
         </li>
         <li>
-          One of the <RoleEmbed role="Cnd Boon" profession="renegade" />s does
-          2-4.
+          <RoleEmbed role="Banner" profession="berserker" /> does 2-4.
         </li>
       </ul>
     </div>
