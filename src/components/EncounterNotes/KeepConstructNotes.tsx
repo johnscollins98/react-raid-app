@@ -28,7 +28,7 @@ function KeepConstructNotes() {
           WHITE ORBS (and vice versa)
         </li>
         <li>
-          We're doing 2 orbs. <RoleEmbed role="" profession="chronomancer" />{" "}
+          We're doing 2 orbs. <RoleEmbed role="Pwr Boon" profession="chronomancer" />{" "}
           help the <RoleEmbed role="Heal" profession="druid" /> with pushing
         </li>
         <li>Be ready with boons in time for bursting KC.</li>
