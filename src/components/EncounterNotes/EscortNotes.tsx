@@ -23,11 +23,11 @@ function EscortNotes() {
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> escorts Glenna,
           provides <BoonEmbed id="stability" /> for portals and{" "}
-          <GW2Skill id="9091" /> right after taking the portal
+          <GW2Skill id="9091" /> right after taking the portal.
         </li>
         <li>
           <RoleEmbed role="Heal" profession="druid" /> uses{" "}
-          <GW2Skill id="12580" /> on wargs during final fight
+          <GW2Skill id="12580" /> on wargs during final fight.
         </li>
       </ul>
     </div>
