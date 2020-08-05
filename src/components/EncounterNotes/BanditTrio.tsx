@@ -1,8 +1,6 @@
 import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
-import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
 
 function BanditTrioNotes() {
   return (
