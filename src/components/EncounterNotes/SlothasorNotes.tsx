@@ -11,7 +11,7 @@ function SlothasorNotes() {
       <ul>
         <li>Keep Sloth at beginning until CC at 80%.</li>
         <li>
-          <RoleEmbed role="Heal" profession="firebrand" /> provides
+          <RoleEmbed role="Heal" profession="firebrand" /> provides{" "}
           <BoonEmbed id="stability" /> after each CC phase.
         </li>
         <li>Tank as close to the middle as possible (face towards middle)</li>
