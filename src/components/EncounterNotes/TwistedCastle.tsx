@@ -23,12 +23,6 @@ function TwistedCastleNotes() {
         </li>
         <li>Remember that you actually need to kill adds to progress.</li>
       </ul>
-      <h3>Splitting up</h3>
-      <ul>
-        <li>Circle - CrackedSass, Whiskers, Millie</li>
-        <li>Heart - Elosia, Blaster, Miruna</li>
-        <li>Arrow - Everyone else</li>
-      </ul>
       <h3>Jobs</h3>
       <ul>
         <li>
