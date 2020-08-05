@@ -14,10 +14,10 @@ function SlothasorNotes() {
           <RoleEmbed role="Heal" profession="firebrand" /> provides{" "}
           <BoonEmbed id="stability" /> after each CC phase.
         </li>
-        <li>Tank as close to the middle as possible (face towards middle)</li>
+        <li>Tank as close to the middle as possible (face towards middle).</li>
         <li>
           <RoleEmbed role="" profession="chronomancer" />s work together to pull
-          slublings into the group with <GW2Skill id="10186" />,
+          slublings into the group with <GW2Skill id="10186" />.
         </li>
         <li>
           <RoleEmbed role="" profession="firebrand" /> can help with pulling
