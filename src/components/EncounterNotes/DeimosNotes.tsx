@@ -9,7 +9,7 @@ function DeimosNotes() {
       <h3>General</h3>
       <ul>
         <li>
-          <RoleEmbed role="Heal" profession="firebrand" /> tanks
+          <RoleEmbed role="Heal" profession="firebrand" /> tanks.
         </li>
         <li>
           Banana "black kite" (only necessary during <GW2Skill id="37613" />
