@@ -8,8 +8,8 @@ function ConjuredAmalgamateNotes() {
       <h3>General</h3>
       <ul>
         <li>
-          Do not forget to cleave. If you pick up random swords, use 'em on the
-          shields if they're spawning.
+          Do <strong>not</strong> forget to cleave. If you pick up random
+          swords, use 'em on the shields if they're spawning.
         </li>
       </ul>
       <h3>Jobs</h3>
