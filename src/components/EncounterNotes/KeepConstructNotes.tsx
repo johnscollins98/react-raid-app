@@ -20,7 +20,7 @@ function KeepConstructNotes() {
           <GW2Skill id="5857" /> if more healing is needed.
         </li>
         <li>
-          Attack KC during the collecting phase to heal from
+          Attack KC during the collecting phase to heal from{" "}
           <GW2Skill id="21773" />.
         </li>
         <li>
