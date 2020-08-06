@@ -38,6 +38,23 @@ function QadimNotes() {
           help with their magnetic bomb and everyone should be ready to cleave
           fast.
         </li>
+        <li>
+          2nd Legendary: start all packed, be ready to CC and kill the 3 adds.
+        </li>
+        <li>
+          All DPS + <RoleEmbed role="Heal" profession="druid" /> go into the
+          last lamp; <RoleEmbed role="Pwr Boon" profession="chronomancer" />{" "}
+          tanks Pat, <RoleEmbed role="Heal" profession="tempest" /> tanks Mat;
+          CC Pat before opening the lamp.
+        </li>
+        <li>
+          <RoleEmbed role="Pwr Boon" profession="chronomancer" /> portal to the
+          first Pyre at the end to avoid jp.
+        </li>
+        <li>
+          If you fall from the platform don’t panic: you get pushed back up,
+          just glide back to the group.
+        </li>
       </ul>
     </div>
   );
