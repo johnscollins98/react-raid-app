@@ -30,6 +30,10 @@ export interface ISkillProps {
   id: string;
 }
 
+export interface ITraitProps {
+  id: string;
+}
+
 export interface IBoonEmbedProps {
   id: string;
 }
