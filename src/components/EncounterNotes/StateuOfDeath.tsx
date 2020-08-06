@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 
-function SoulEaterNotes() {
+function StatueOfDeathNotes() {
   return (
     <div>
       <h3>General</h3>
@@ -29,4 +29,4 @@ function SoulEaterNotes() {
   );
 }
 
-export default SoulEaterNotes;
+export default StatueOfDeathNotes;

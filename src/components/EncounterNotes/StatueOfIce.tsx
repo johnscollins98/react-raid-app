@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 
-function IceKingNotes() {
+function StatueOfIceNotes() {
   return (
     <div>
       <h3>General</h3>
@@ -16,4 +16,4 @@ function IceKingNotes() {
   );
 }
 
-export default IceKingNotes;
+export default StatueOfIceNotes;
