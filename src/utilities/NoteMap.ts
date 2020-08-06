@@ -18,6 +18,7 @@ import StatueOfDarknessNotes from "./../components/EncounterNotes/StatueOfDarkne
 import DhuumNotes from "../components/EncounterNotes/DhuumNotes";
 import ConjuredAmalgamateNotes from "../components/EncounterNotes/ConjuredAmalgamateNotes";
 import TwinLargosNotes from "../components/EncounterNotes/TwinLargosNotes";
+import QadimNotes from "./../components/EncounterNotes/QadimNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
@@ -54,5 +55,6 @@ NoteMap.set("dhuum", DhuumNotes());
 // Wing 6
 NoteMap.set("conjured-amalgamate", ConjuredAmalgamateNotes());
 NoteMap.set("largos", TwinLargosNotes());
+NoteMap.set("qadim", QadimNotes());
 
 export default NoteMap;
