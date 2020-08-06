@@ -2,6 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
+import GW2Trait from "../GW2Trait/GW2Trait";
 
 function SoullessHorrorNotes() {
   return (
@@ -14,7 +15,7 @@ function SoullessHorrorNotes() {
         </li>
         <li>
           <RoleEmbed role="Heal" profession="druid" /> should take{" "}
-          <GW2Skill id="1698" /> in Marksmanship for pushing.
+          <GW2Trait id="1698" /> in Marksmanship for pushing.
         </li>
         <li>
           Don't CC the golem or the druid <strong>will</strong> yell at you
