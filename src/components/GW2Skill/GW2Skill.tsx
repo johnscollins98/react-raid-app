@@ -1,16 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import './GW2Skill.css';
-import { ISkillProps } from '../../utilities/Interfaces';
+import "./GW2Skill.css";
+import { ISkillProps, GW2EmbedTypes } from "../../utilities/Interfaces";
+import GW2Embed from "../GW2Embed/GW2Embed";
 
 function GW2Skill(props: ISkillProps) {
-  return (
-    <span
-      data-armory-embed="skills" data-armory-ids={`${props.id}`}
-      data-armory-size="25"
-      data-armory-inline-text="wiki">
-    </span>
-  )
+  return <GW2Embed type={GW2EmbedTypes.Skill} {...props} />;
 }
 
 export default GW2Skill;
