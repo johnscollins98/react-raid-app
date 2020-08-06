@@ -16,27 +16,41 @@ import StatueOfIceNotes from "../components/EncounterNotes/StatueOfIceNotes";
 import StatueOfDeathNotes from "../components/EncounterNotes/StatueOfDeathNotes";
 import StatueOfDarknessNotes from "./../components/EncounterNotes/StatueOfDarknessNotes";
 import DhuumNotes from "../components/EncounterNotes/DhuumNotes";
+import ConjuredAmalgamateNotes from "../components/EncounterNotes/ConjuredAmalgamateNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
+// Wing 1
 NoteMap.set("vale-guardian", ValeGuardianNotes());
 NoteMap.set("gorseval", GorsevalNotes());
 NoteMap.set("sabetha", SabethaNotes());
+
+// Wing 2
 NoteMap.set("slothasor", SlothasorNotes());
 NoteMap.set("trio", BanditTrioNotes());
 NoteMap.set("matthias", MatthiasNotes());
+
+// Wing 3
 NoteMap.set("escort", EscortNotes());
 NoteMap.set("keep-construct", KeepConstructNotes());
 NoteMap.set("twisted-castle", TwistedCastleNotes());
-// TODO: Xera, Cairn
+// TODO: Xera
+
+// Wing 4
+// TODO: Cairn
 NoteMap.set("mursaat-overseer", MursaatOverseerNotes());
 NoteMap.set("samarog", SamarogNotes());
 NoteMap.set("deimos", DeimosNotes());
+
+// Wing 5
 NoteMap.set("desmina", SoullessHorrorNotes());
 NoteMap.set("river", RiverNotes());
 NoteMap.set("ice-king", StatueOfIceNotes());
 NoteMap.set("soul-eater", StatueOfDeathNotes());
 NoteMap.set("eyes", StatueOfDarknessNotes());
 NoteMap.set("dhuum", DhuumNotes());
+
+// Wing 6
+NoteMap.set("conjured-amalgamate", ConjuredAmalgamateNotes());
 
 export default NoteMap;
