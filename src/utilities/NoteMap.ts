@@ -10,6 +10,7 @@ import MursaatOverseerNotes from "../components/EncounterNotes/MursaatOverseerNo
 import SamarogNotes from "./../components/EncounterNotes/SamarogNotes";
 import DeimosNotes from "../components/EncounterNotes/DeimosNotes";
 import SabethaNotes from "./../components/EncounterNotes/SabethaNotes";
+import SoullessHorrorNotes from "../components/EncounterNotes/SoullessHorrorNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
@@ -26,5 +27,6 @@ NoteMap.set("twisted-castle", TwistedCastleNotes());
 NoteMap.set("mursaat-overseer", MursaatOverseerNotes());
 NoteMap.set("samarog", SamarogNotes());
 NoteMap.set("deimos", DeimosNotes());
+NoteMap.set("desmina", SoullessHorrorNotes());
 
 export default NoteMap;
