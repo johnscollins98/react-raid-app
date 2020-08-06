@@ -62,5 +62,6 @@ NoteMap.set("qadim", QadimNotes());
 // Wing 7
 NoteMap.set("adina", CardinalAdinaNotes());
 NoteMap.set("sabir", CardinalSabirNotes());
+// TODO: QadimP
 
 export default NoteMap;
