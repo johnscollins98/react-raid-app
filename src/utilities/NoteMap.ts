@@ -15,6 +15,7 @@ import RiverNotes from "../components/EncounterNotes/RiverNotes";
 import StatueOfIceNotes from "../components/EncounterNotes/StatueOfIceNotes";
 import StatueOfDeathNotes from "../components/EncounterNotes/StatueOfDeathNotes";
 import StatueOfDarknessNotes from "./../components/EncounterNotes/StatueOfDarknessNotes";
+import DhuumNotes from "../components/EncounterNotes/DhuumNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
@@ -36,5 +37,6 @@ NoteMap.set("river", RiverNotes());
 NoteMap.set("ice-king", StatueOfIceNotes());
 NoteMap.set("soul-eater", StatueOfDeathNotes());
 NoteMap.set("eyes", StatueOfDarknessNotes());
+NoteMap.set("dhuum", DhuumNotes());
 
 export default NoteMap;
