@@ -11,6 +11,7 @@ import SamarogNotes from "./../components/EncounterNotes/SamarogNotes";
 import DeimosNotes from "../components/EncounterNotes/DeimosNotes";
 import SabethaNotes from "./../components/EncounterNotes/SabethaNotes";
 import SoullessHorrorNotes from "../components/EncounterNotes/SoullessHorrorNotes";
+import RiverNotes from "../components/EncounterNotes/RiverNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
@@ -28,5 +29,6 @@ NoteMap.set("mursaat-overseer", MursaatOverseerNotes());
 NoteMap.set("samarog", SamarogNotes());
 NoteMap.set("deimos", DeimosNotes());
 NoteMap.set("desmina", SoullessHorrorNotes());
+NoteMap.set("river", RiverNotes());
 
 export default NoteMap;
