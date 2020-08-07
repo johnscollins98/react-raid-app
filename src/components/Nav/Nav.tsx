@@ -1,22 +1,32 @@
-import React, { useRef, useState } from 'react';
-import { NavLink as RRNavLink } from 'react-router-dom';
-import BSNav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React, { useRef, useState } from "react";
+import { NavLink as RRNavLink } from "react-router-dom";
+import BSNav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { INavProps, IWing, IEncounter } from '../../utilities/Interfaces';
+import { INavProps, IWing, IEncounter } from "../../utilities/Interfaces";
 
 enum ELabelKeys {
   short = 1,
   medium,
-  long
+  long,
 }
 
 function getDropdownLinks(wing: IWing) {
   return wing.encounters.map((encounter: IEncounter) => {
     const link = `/encounter/${wing.id}/${encounter.id}`;
-    return <NavDropdown.Item as={RRNavLink} exact to={link} key={encounter.id} activeClassName="active">{encounter.label}</NavDropdown.Item>
-  })
+    return (
+      <NavDropdown.Item
+        as={RRNavLink}
+        exact
+        to={link}
+        key={encounter.id}
+        activeClassName="active"
+      >
+        {encounter.label}
+      </NavDropdown.Item>
+    );
+  });
 }
 
 function getLabel(wing: IWing, labelKey: ELabelKeys) {
@@ -37,7 +47,7 @@ function getDropdowns(wings: Array<IWing>, labelKey: ELabelKeys) {
         {getDropdownLinks(wing)}
       </NavDropdown>
     </BSNav.Item>
-  ))
+  ));
 }
 
 function getLabelKey() {
@@ -48,7 +58,7 @@ function getLabelKey() {
   } else if (windowWidth < 1500) {
     return ELabelKeys.short;
   } else if (windowWidth < 1800) {
-    return ELabelKeys.medium; 
+    return ELabelKeys.medium;
   } else {
     return ELabelKeys.long;
   }
@@ -62,10 +72,16 @@ function Nav(props: INavProps) {
   const [labelKey, setLabelKey] = useState(getLabelKey());
   const logoImage = require("../../assets/images/SO-Logo.png");
 
-  window.addEventListener("resize", () => setLabelKey(getLabelKey()))
+  window.addEventListener("resize", () => setLabelKey(getLabelKey()));
 
   return (
-    <Navbar ref={barRef} fixed="top" variant="dark" expand="lg" style={{backgroundColor: "rgba(0,0,0,0.95)"}}>
+    <Navbar
+      ref={barRef}
+      fixed="top"
+      variant="dark"
+      expand="lg"
+      style={{ backgroundColor: "rgba(0,0,0,0.95)" }}
+    >
       <Navbar.Brand as={RRNavLink} ref={brandRef} exact to="/">
         <img
           alt="Logo"
@@ -73,7 +89,7 @@ function Nav(props: INavProps) {
           width="30"
           height="30"
           className="d-inline-block align-top"
-        />{' '}
+        />{" "}
         Sunspear Order
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

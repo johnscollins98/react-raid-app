@@ -1,6 +1,6 @@
-import { IEncounter, ISubgroup, IWing } from "./Interfaces"
+import { IEncounter, ISubgroup, IWing } from "./Interfaces";
 
-export const mockSubgroupOne : ISubgroup = {
+export const mockSubgroupOne: ISubgroup = {
   label: "Subgroup 1",
   members: [
     { name: "Test1.1", profession: "chronomancer", role: "Quickness" },
@@ -8,10 +8,10 @@ export const mockSubgroupOne : ISubgroup = {
     { name: "Test1.3", profession: "berserker", role: "Power BS" },
     { name: "Test1.4", profession: "weaver", role: "power" },
     { name: "Test1.5", profession: "weaver", role: "power" },
-  ]
-}
+  ],
+};
 
-export const mockSubgroupTwo : ISubgroup = {
+export const mockSubgroupTwo: ISubgroup = {
   label: "Subgroup 2",
   members: [
     { name: "Test2.1", profession: "firebrand", role: "Heal" },
@@ -19,22 +19,19 @@ export const mockSubgroupTwo : ISubgroup = {
     { name: "Test2.3", profession: "holosmith", role: "power" },
     { name: "Test2.4", profession: "dragonhunter", role: "power" },
     { name: "Test2.5", profession: "chronomancer", role: "power" },
-  ]
-}
+  ],
+};
 
-export const mockEncounter : IEncounter = {
+export const mockEncounter: IEncounter = {
   id: "gorseval",
   label: "Gorseval the Multifarious",
   imageName: "gorseval.png",
-  composition: [
-    mockSubgroupOne,
-    mockSubgroupTwo
-  ]
-}
+  composition: [mockSubgroupOne, mockSubgroupTwo],
+};
 
-export const mockWing : IWing = {
+export const mockWing: IWing = {
   id: "w1",
   wingLabel: "Wing 1",
   wingName: "Spirit Vale",
-  encounters: [mockEncounter]
-}
+  encounters: [mockEncounter],
+};

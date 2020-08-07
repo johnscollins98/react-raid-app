@@ -20,17 +20,16 @@ function DhuumNotes() {
             label="Chapter 4: Stalwart Stand"
             wikiLink="https://wiki.guildwars2.com/wiki/Chapter_4:_Stalwart_Stand"
           />{" "}
-            in <GW2Skill id="42259" /> for{" "}
-          <BoonEmbed id="resistance" /> before splits.
+          in <GW2Skill id="42259" /> for <BoonEmbed id="resistance" /> before{" "}
+          splits.
         </li>
         <li>
-          You should also jump into{" "}
-          <GW2Skill id="41780" /> and can use{" "}
-          <CustomGW2Skill 
-            id="radiant-recovery" 
+          You should also jump into <GW2Skill id="41780" /> and can use{" "}
+          <CustomGW2Skill
+            id="radiant-recovery"
             label="Chapter 2: Radiant Recovery"
             wikiLink="https://wiki.guildwars2.com/wiki/Chapter_2:_Radiant_Recovery"
-          />{" "} 
+          />{" "}
           to provide condition cleanse to your subgroup.
         </li>
       </ul>

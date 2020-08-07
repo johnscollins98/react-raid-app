@@ -1,31 +1,28 @@
-import React from 'react';
-import {
-  HashRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
-import './App.css';
-import 'armory-component-ui/styles.css';
-import { Provider } from 'react-redux';
-import { combineReducers, applyMiddleware, createStore } from 'redux';
-import thunk from 'redux-thunk';
-import { reducers } from 'armory-component-ui';
+// npm imports
+import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { Provider } from "react-redux";
+import { combineReducers, applyMiddleware, createStore } from "redux";
+import thunk from "redux-thunk";
+import { reducers } from "armory-component-ui";
+import "armory-component-ui/styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "react-modal-video/scss/modal-video.scss";
 
-import data from '../../assets/data/data.json';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-modal-video/scss/modal-video.scss';
-import { IWing } from '../../utilities/Interfaces';
+import "./App.css";
+import data from "../../assets/data/data.json";
+import { IWing } from "../../utilities/Interfaces";
 
-import Nav from '../Nav/Nav';
-import EncounterRouter from '../EncounterRouter';
-import HomePage from '../HomePage/HomePage';
+import Nav from "../Nav/Nav";
+import EncounterRouter from "../EncounterRouter";
+import HomePage from "../HomePage/HomePage";
 
 const store = createStore(
   // Create the root reducer.
   combineReducers(reducers),
 
   // Set the thunk middleware.
-  applyMiddleware(thunk),
+  applyMiddleware(thunk)
 );
 
 function App() {

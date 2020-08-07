@@ -1,7 +1,8 @@
 ## Application Description
-* This is a personal project to display raid compositions.
-* Will initially read in compositions from a JSON file and display them in a neat format.
-* Will also make use of bootstrap styling and ReactJS for training/practice purposes.
+
+- This is a personal project to display raid compositions.
+- Will initially read in compositions from a JSON file and display them in a neat format.
+- Will also make use of bootstrap styling and ReactJS for training/practice purposes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Modal from 'react-bootstrap/Modal';
-import ModalVideo from 'react-modal-video';
+import Modal from "react-bootstrap/Modal";
+import ModalVideo from "react-modal-video";
 
 function XeraNotes() {
   const [showImage, setShowImage] = useState(false);
@@ -21,15 +21,28 @@ function XeraNotes() {
       </ul>
       <h3>Tanking</h3>
       <ul>
-        <li>Guide <button className="inline-text-button" onClick={handleShowVideo}>here.</button></li>
-        <li>Image <button className="inline-text-button" onClick={handleShowImage}>here.</button></li>
-        <li>Phase One
+        <li>
+          Guide{" "}
+          <button className="inline-text-button" onClick={handleShowVideo}>
+            here.
+          </button>
+        </li>
+        <li>
+          Image{" "}
+          <button className="inline-text-button" onClick={handleShowImage}>
+            here.
+          </button>
+        </li>
+        <li>
+          Phase One
           <ul>
             <li>Arrow until special action key.</li>
             <li>Circle (Don't stand on square side) until 50%.</li>
           </ul>
         </li>
-        <li>Phase Two (steps after Star are only necessary if DPS isn't high enough)
+        <li>
+          Phase Two (steps after Star are only necessary if DPS isn't high
+          enough)
           <ul>
             <li>Circle until special action key.</li>
             <li>Star until orbs end. (Can stay here if DPS is high enough)</li>
@@ -39,11 +52,20 @@ function XeraNotes() {
         </li>
       </ul>
       <Modal show={showImage} onHide={handleCloseImage} centered>
-        <img width="100%" src={require("../../assets/images/xera-tank.png")} alt="Cairn" />
+        <img
+          width="100%"
+          src={require("../../assets/images/xera-tank.png")}
+          alt="Cairn"
+        />
       </Modal>
-      <ModalVideo channel="youtube" isOpen={showVideo} onClose={handleCloseVideo} videoId="f8ntQA2DOlY" />
+      <ModalVideo
+        channel="youtube"
+        isOpen={showVideo}
+        onClose={handleCloseVideo}
+        videoId="f8ntQA2DOlY"
+      />
     </div>
-  )
+  );
 }
 
 export default XeraNotes;

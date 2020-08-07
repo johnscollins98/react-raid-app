@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import ValeGuardianNotes from "../components/EncounterNotes/ValeGuardianNotes";
 import GorsevalNotes from "../components/EncounterNotes/GorsevalNotes";
@@ -43,7 +43,7 @@ NoteMap.set("matthias", <MatthiasNotes />);
 NoteMap.set("escort", <EscortNotes />);
 NoteMap.set("keep-construct", <KeepConstructNotes />);
 NoteMap.set("twisted-castle", <TwistedCastleNotes />);
-NoteMap.set("xera", <XeraNotes />)
+NoteMap.set("xera", <XeraNotes />);
 
 // Wing 4
 NoteMap.set("cairn", <CairnNotes />);
@@ -67,6 +67,6 @@ NoteMap.set("qadim", <QadimNotes />);
 // Wing 7
 NoteMap.set("adina", <CardinalAdinaNotes />);
 NoteMap.set("sabir", <CardinalSabirNotes />);
-NoteMap.set("qadimp", <QadimPNotes />)
+NoteMap.set("qadimp", <QadimPNotes />);
 
 export default NoteMap;

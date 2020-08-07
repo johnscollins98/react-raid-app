@@ -3,7 +3,9 @@
   src: url(../../assets/fonts/Quicksand-Regular.ttf);
 }
 
-html, body, #root {
+html,
+body,
+#root {
   min-height: 100%;
   height: 100%;
   background-color: #1f2225;
@@ -21,4 +23,38 @@ html, body, #root {
 .inline-text-button:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Menomonia";
+  src: url("../../../node_modules/armory-component-ui/menomonia.woff")
+      format("woff"),
+    url("../../../node_modules/armory-component-ui/menomonia.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../../node_modules/armory-component-ui/opensans-light.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../../node_modules/armory-component-ui/opensans.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../../node_modules/armory-component-ui/opensans-semibold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }

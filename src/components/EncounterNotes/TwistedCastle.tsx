@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video"
+import ModalVideo from "react-modal-video";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
@@ -17,7 +17,10 @@ function TwistedCastleNotes() {
       <ul>
         <li>
           Everyone should learn where all buttons are - watch{" "}
-          <button className="inline-text-button" onClick={handleShow}>this video</button>.
+          <button className="inline-text-button" onClick={handleShow}>
+            this video
+          </button>
+          .
         </li>
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> try as much as you
@@ -63,7 +66,12 @@ function TwistedCastleNotes() {
           placed.
         </li>
       </ul>
-      <ModalVideo channel="youtube" isOpen={showModal} onClose={handleClose} videoId="vmHayhAe9UA" />
+      <ModalVideo
+        channel="youtube"
+        isOpen={showModal}
+        onClose={handleClose}
+        videoId="vmHayhAe9UA"
+      />
     </div>
   );
 }

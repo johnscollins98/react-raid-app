@@ -21,8 +21,8 @@ function SamarogNotes() {
         </li>
         <li>
           <RoleEmbed role="Pwr" profession="daredevil" /> should use{" "}
-          <GW2Skill id="13132" /> and {" "}
-          <CustomGW2Skill 
+          <GW2Skill id="13132" /> and{" "}
+          <CustomGW2Skill
             id="throw-magnetic-bomb"
             label="Throw Magnetic Bomb"
             wikiLink="https://wiki.guildwars2.com/wiki/Throw_Magnetic_Bomb"
