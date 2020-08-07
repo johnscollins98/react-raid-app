@@ -7,6 +7,18 @@ import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
 function SamarogNotes() {
   return (
     <div>
+      <h3>General</h3>
+      <ul>
+        <li>
+          <RoleEmbed role="Cnd Boon" profession="firebrand" /> should always try
+          to bait fixation due to low CC output.
+        </li>
+        <li>During CC everyone should stay as close to Samarog as possible.</li>
+        <li>
+          <RoleEmbed role="Pwr Boon" profession="chronomancer" /> can help with
+          Rigom using <GW2Skill id="10186" />.
+        </li>
+      </ul>
       <h3>
         <strong>Quick</strong> CC!
       </h3>
@@ -27,6 +39,10 @@ function SamarogNotes() {
             label="Throw Magnetic Bomb"
             wikiLink="https://wiki.guildwars2.com/wiki/Throw_Magnetic_Bomb"
           />
+        </li>
+        <li>
+          <RoleEmbed role="Pwr Banner" profession="berserker" /> feel free to
+          take <GW2Skill id="29941" /> to help with CC and Rigom.
         </li>
       </ul>
     </div>
