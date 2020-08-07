@@ -13,6 +13,7 @@ import { reducers } from 'armory-component-ui';
 
 import data from '../../assets/data/data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-modal-video/scss/modal-video.scss';
 import { IWing } from '../../utilities/Interfaces';
 
 import Nav from '../Nav/Nav';

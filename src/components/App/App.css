@@ -10,3 +10,15 @@ html, body, #root {
   color: white;
   font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
+
+.inline-text-button {
+  border: none;
+  background: none;
+  color: #007bff;
+  padding: 0;
+}
+
+.inline-text-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ValeGuardianNotes from "../components/EncounterNotes/ValeGuardianNotes";
 import GorsevalNotes from "../components/EncounterNotes/GorsevalNotes";
 import SlothasorNotes from "../components/EncounterNotes/SlothasorNotes";
@@ -6,6 +8,7 @@ import MatthiasNotes from "../components/EncounterNotes/MatthiasNotes";
 import EscortNotes from "../components/EncounterNotes/EscortNotes";
 import KeepConstructNotes from "../components/EncounterNotes/KeepConstructNotes";
 import TwistedCastleNotes from "../components/EncounterNotes/TwistedCastle";
+import CairnNotes from "../components/EncounterNotes/CairnNotes";
 import MursaatOverseerNotes from "../components/EncounterNotes/MursaatOverseerNotes";
 import SamarogNotes from "./../components/EncounterNotes/SamarogNotes";
 import DeimosNotes from "../components/EncounterNotes/DeimosNotes";
@@ -25,43 +28,43 @@ import CardinalSabirNotes from "../components/EncounterNotes/CardinalSabirNotes"
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
 // Wing 1
-NoteMap.set("vale-guardian", ValeGuardianNotes());
-NoteMap.set("gorseval", GorsevalNotes());
-NoteMap.set("sabetha", SabethaNotes());
+NoteMap.set("vale-guardian", <ValeGuardianNotes />);
+NoteMap.set("gorseval", <GorsevalNotes />);
+NoteMap.set("sabetha", <SabethaNotes />);
 
 // Wing 2
-NoteMap.set("slothasor", SlothasorNotes());
-NoteMap.set("trio", BanditTrioNotes());
-NoteMap.set("matthias", MatthiasNotes());
+NoteMap.set("slothasor", <SlothasorNotes />);
+NoteMap.set("trio", <BanditTrioNotes />);
+NoteMap.set("matthias", <MatthiasNotes />);
 
 // Wing 3
-NoteMap.set("escort", EscortNotes());
-NoteMap.set("keep-construct", KeepConstructNotes());
-NoteMap.set("twisted-castle", TwistedCastleNotes());
+NoteMap.set("escort", <EscortNotes />);
+NoteMap.set("keep-construct", <KeepConstructNotes />);
+NoteMap.set("twisted-castle", <TwistedCastleNotes />);
 // TODO: Xera
 
 // Wing 4
-// TODO: Cairn
-NoteMap.set("mursaat-overseer", MursaatOverseerNotes());
-NoteMap.set("samarog", SamarogNotes());
-NoteMap.set("deimos", DeimosNotes());
+NoteMap.set("cairn", <CairnNotes />);
+NoteMap.set("mursaat-overseer", <MursaatOverseerNotes />);
+NoteMap.set("samarog", <SamarogNotes />);
+NoteMap.set("deimos", <DeimosNotes />);
 
 // Wing 5
-NoteMap.set("desmina", SoullessHorrorNotes());
-NoteMap.set("river", RiverNotes());
-NoteMap.set("ice-king", StatueOfIceNotes());
-NoteMap.set("soul-eater", StatueOfDeathNotes());
-NoteMap.set("eyes", StatueOfDarknessNotes());
-NoteMap.set("dhuum", DhuumNotes());
+NoteMap.set("desmina", <SoullessHorrorNotes />);
+NoteMap.set("river", <RiverNotes />);
+NoteMap.set("ice-king", <StatueOfIceNotes />);
+NoteMap.set("soul-eater", <StatueOfDeathNotes />);
+NoteMap.set("eyes", <StatueOfDarknessNotes />);
+NoteMap.set("dhuum", <DhuumNotes />);
 
 // Wing 6
-NoteMap.set("conjured-amalgamate", ConjuredAmalgamateNotes());
-NoteMap.set("largos", TwinLargosNotes());
-NoteMap.set("qadim", QadimNotes());
+NoteMap.set("conjured-amalgamate", <ConjuredAmalgamateNotes />);
+NoteMap.set("largos", <TwinLargosNotes />);
+NoteMap.set("qadim", <QadimNotes />);
 
 // Wing 7
-NoteMap.set("adina", CardinalAdinaNotes());
-NoteMap.set("sabir", CardinalSabirNotes());
+NoteMap.set("adina", <CardinalAdinaNotes />);
+NoteMap.set("sabir", <CardinalSabirNotes />);
 // TODO: QadimP
 
 export default NoteMap;

@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import ModalVideo from "react-modal-video"
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
 import BoonEmbed from "../BoonEmbed/BoonEmbed";
 
 function TwistedCastleNotes() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleShow = () => setShowModal(true);
+  const handleClose = () => setShowModal(false);
+
   return (
     <div>
       <h3>General</h3>
       <ul>
         <li>
-          Everyone should learn where all buttons are - watch this{" "}
-          <a href="https://www.youtube.com/watch?v=vmHayhAe9UA">video</a>.
+          Everyone should learn where all buttons are - watch{" "}
+          <button className="inline-text-button" onClick={handleShow}>this video</button>.
         </li>
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> try as much as you
@@ -57,6 +63,7 @@ function TwistedCastleNotes() {
           placed.
         </li>
       </ul>
+      <ModalVideo channel="youtube" isOpen={showModal} onClose={handleClose} videoId="vmHayhAe9UA" />
     </div>
   );
 }
