@@ -783,7 +783,7 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
                 "profession": "holosmith",
@@ -793,12 +793,17 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Banana"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Blaster"
               },
               {
                 "profession": "renegade",
@@ -824,11 +829,6 @@
                 "profession": "druid",
                 "role": "Heal",
                 "name": "Thillar"
-              },
-              {
-                "profession": "chronomancer",
-                "role": "Pwr",
-                "name": "Blaster"
               }
             ]
           }
