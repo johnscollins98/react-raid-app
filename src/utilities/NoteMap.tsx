@@ -8,6 +8,7 @@ import MatthiasNotes from "../components/EncounterNotes/MatthiasNotes";
 import EscortNotes from "../components/EncounterNotes/EscortNotes";
 import KeepConstructNotes from "../components/EncounterNotes/KeepConstructNotes";
 import TwistedCastleNotes from "../components/EncounterNotes/TwistedCastle";
+import XeraNotes from "../components/EncounterNotes/XeraNotes";
 import CairnNotes from "../components/EncounterNotes/CairnNotes";
 import MursaatOverseerNotes from "../components/EncounterNotes/MursaatOverseerNotes";
 import SamarogNotes from "./../components/EncounterNotes/SamarogNotes";
@@ -41,7 +42,7 @@ NoteMap.set("matthias", <MatthiasNotes />);
 NoteMap.set("escort", <EscortNotes />);
 NoteMap.set("keep-construct", <KeepConstructNotes />);
 NoteMap.set("twisted-castle", <TwistedCastleNotes />);
-// TODO: Xera
+NoteMap.set("xera", <XeraNotes />)
 
 // Wing 4
 NoteMap.set("cairn", <CairnNotes />);
