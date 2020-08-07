@@ -16,7 +16,21 @@ export interface IEncounter {
   composition: Array<ISubgroup>;
 }
 
+export enum GW2EmbedTypes {
+  Skill = "skills",
+  Trait = "traits",
+}
+
+export interface IEmbedProps {
+  type: GW2EmbedTypes;
+  id: string;
+}
+
 export interface ISkillProps {
+  id: string;
+}
+
+export interface ITraitProps {
   id: string;
 }
 
@@ -30,18 +44,18 @@ export interface IRoleEmbedProps {
 }
 
 export interface IWing {
-  id: string,
-  wingLabel: string,
-  wingName: string,
-  encounters: Array<IEncounter>
+  id: string;
+  wingLabel: string;
+  wingName: string;
+  encounters: Array<IEncounter>;
 }
 
 export interface INavProps {
-  wings: Array<IWing>
+  wings: Array<IWing>;
 }
 
 export interface IEncounterRouterProps {
-  wings: Array<IWing>
+  wings: Array<IWing>;
 }
 
 export interface IHomeProps {
