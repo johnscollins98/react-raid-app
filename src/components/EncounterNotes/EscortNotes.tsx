@@ -14,11 +14,20 @@ function EscortNotes() {
           head back after 3rd one).
         </li>
         <li>
-          <RoleEmbed role="Tower" profession="mirage" /> Portal for T1 and T2 -
-          then T4 and T5.
+          <RoleEmbed role="Tower" profession="chronomancer" />{" "}
+          <GW2Skill id="10197" /> for:
+          <ul>
+            <li>Tower 1</li>
+            <li>Tower 2</li>
+            <li>Tower 4</li>
+            <li>Tower 5</li>
+          </ul>
         </li>
         <li>
-          <RoleEmbed role="Pwr" profession="chronomancer" /> Portal for T3.
+          <RoleEmbed role="Pwr" profession="chronomancer" />{" "}
+          <GW2Skill id="10197" /> for Tower 3 as{" "}
+          <RoleEmbed role="Tower" profession="chronomancer" /> will have
+          cooldowns.
         </li>
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> escorts Glenna,
