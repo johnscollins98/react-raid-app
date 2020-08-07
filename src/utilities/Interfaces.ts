@@ -21,16 +21,7 @@ export enum GW2EmbedTypes {
   Trait = "traits",
 }
 
-export interface IEmbedProps {
-  type: GW2EmbedTypes;
-  id: string;
-}
-
-export interface ISkillProps {
-  id: string;
-}
-
-export interface ITraitProps {
+export interface IGW2EmbedProps {
   id: string;
 }
 
