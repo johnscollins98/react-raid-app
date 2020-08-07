@@ -15,7 +15,7 @@ function CustomGW2Skill(props: ICustomGW2SkillProps) {
     >
       <span>
 
-        <img height="25" width="25" src={img} />{" "}
+        <img height="25" width="25" src={img} alt={props.label}/>{" "}
         <a href={props.wikiLink}>{props.label}</a>
       </span>
     </TooltipTrigger>
