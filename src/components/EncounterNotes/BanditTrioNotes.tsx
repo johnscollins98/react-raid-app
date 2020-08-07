@@ -30,6 +30,15 @@ function BanditTrioNotes() {
         <li>
           <RoleEmbed role="Pwr" profession="dragonhunter" /> Keg Throwing.
         </li>
+        <li>
+          <RoleEmbed role="Pwr" profession="tempest" /> and{" "}
+          <RoleEmbed role="Pwr Boon" profession="chronomancer" /> Snipers (after
+          Zane).
+        </li>
+        <li>
+          <strong>EVERYONE</strong> help gather Beehives/Oil Kegs at the
+          beginning.
+        </li>
       </ul>
       <h3>Spawn Times</h3>
       <ul>
