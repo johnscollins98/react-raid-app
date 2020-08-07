@@ -925,14 +925,14 @@
                 "name": "Thillar"
               },
               {
-                "profession": "chronomancer",
+                "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Blaster"
+                "name": "Vakill"
               },
               {
                 "profession": "herald",
                 "role": "Hand Kite",
-                "name": "Quan"
+                "name": "Deekay"
               }
             ]
           },
@@ -952,7 +952,7 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Deekay"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
@@ -960,9 +960,9 @@
                 "name": "Banana"
               },
               {
-                "profession": "dragonhunter",
+                "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Blaster"
               }
             ]
           }
