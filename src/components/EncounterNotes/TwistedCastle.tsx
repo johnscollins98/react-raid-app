@@ -27,8 +27,8 @@ function TwistedCastleNotes() {
           can to provide <MiscEmbed id="stability" /> and pull mobs.
         </li>
         <li>
-          If the <RoleEmbed role="Portal" profession="chronomancer" /> fails the
-          dodge jump, we all need to do it.
+          If the <RoleEmbed role="Pwr Boon" profession="chronomancer" /> fails
+          the dodge jump, we all need to do it.
         </li>
         <li>Remember that you actually need to kill adds to progress.</li>
       </ul>
@@ -43,27 +43,30 @@ function TwistedCastleNotes() {
           portal (can do Fountain Button if needed/wanted).
         </li>
         <li>
-          At least one <RoleEmbed role="" profession="chronomancer" /> should
-          bring <GW2Skill id="10197" /> for the dodge part.
+          <RoleEmbed role="Pwr Boon" profession="chronomancer" /> should bring{" "}
+          <GW2Skill id="10197" /> for the dodge part.
         </li>
       </ul>
       <h3>Button Names (harcore CS:GO callouts)</h3>
       <ul>
-        <li>Skip Button - the one that you do the skip for.</li>
         <li>
-          Fountain button - next to the big fountain, go through the door by
-          where the skip happens.
+          <strong>Skip</strong> - the one that you do the skip for.
         </li>
         <li>
-          Statue Button - run past some statues; go through the door by where we
-          portal.
+          <strong>Fountain</strong> - next to the big fountain, go through the
+          door by where the skip happens.
         </li>
         <li>
-          "Far"/Elosia Button - after the portal it is far off to the left.
+          <strong>Statue</strong> - run past some statues; go through the door
+          by where we portal.
         </li>
         <li>
-          Portal Button - the button immediately below where the button is
-          placed.
+          <strong>"Far"/Elosia</strong> - after the portal it is far off to the
+          left.
+        </li>
+        <li>
+          <strong>Portal</strong> - the button immediately below where the
+          button is placed.
         </li>
       </ul>
       <ModalVideo
