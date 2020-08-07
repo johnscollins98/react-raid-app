@@ -2,6 +2,7 @@ import React from "react";
 
 import RoleEmbed from "./../RoleEmbed/RoleEmbed";
 import GW2Skill from "./../GW2Skill/GW2Skill";
+import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
 
 function SamarogNotes() {
   return (
@@ -20,7 +21,12 @@ function SamarogNotes() {
         </li>
         <li>
           <RoleEmbed role="Pwr" profession="daredevil" /> should use{" "}
-          <GW2Skill id="13132" /> and <GW2Skill id="49112" />
+          <GW2Skill id="13132" /> and {" "}
+          <CustomGW2Skill 
+            id="throw-magnetic-bomb"
+            label="Throw Magnetic Bomb"
+            wikiLink="https://wiki.guildwars2.com/wiki/Throw_Magnetic_Bomb"
+          />
         </li>
       </ul>
     </div>

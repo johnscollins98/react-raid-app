@@ -25,6 +25,12 @@ export interface IGW2EmbedProps {
   id: string;
 }
 
+export interface ICustomGW2SkillProps {
+  id: string;
+  label: string;
+  wikiLink: string;
+}
+
 export interface IBoonEmbedProps {
   id: string;
 }

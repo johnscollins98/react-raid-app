@@ -6,7 +6,7 @@ import { IGW2EmbedProps } from "../../utilities/Interfaces";
 function GW2Trait(props: IGW2EmbedProps) {
   return (
     <span>
-      <Gw2Trait id={props.id} inlineText="wiki" size="25" />
+      <Gw2Trait id={props.id} inlineText="wiki" size="25" active="true" />
       <Tooltip />
     </span>
   )
