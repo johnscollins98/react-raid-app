@@ -15,34 +15,24 @@ function SlothasorNotes() {
           <MiscEmbed id="stability" /> after each CC phase.
         </li>
         <li>Tank as close to the middle as possible (face towards middle).</li>
+      </ul>
+      <h3>Pulling Slublings</h3>
+      <ul>
         <li>
-          <RoleEmbed role="" profession="chronomancer" />s work together to pull
-          slublings into the group with <GW2Skill id="10186" />.
+          <RoleEmbed role="Pwr Boon" profession="chronomancer" /> pull slublings
+          together with <GW2Skill id="10186" />.
         </li>
         <li>
-          <RoleEmbed role="" profession="firebrand" /> can help with pulling
-          with <GW2Skill id="45402" />.
+          <RoleEmbed role="Heal" profession="firebrand" /> pull slublings to the
+          group with <GW2Skill id="45402" />.
         </li>
       </ul>
-      <h3>Slublings</h3>
+      <h3>Mushrooms/Slublings</h3>
       <ul>
         <li>1 - Whiskers</li>
         <li>2 - Vakill</li>
-        <li>3 - Quan</li>
+        <li>3 - Alucard</li>
         <li>4 - Deekay</li>
-      </ul>
-      <h3>
-        <strong>Quick</strong> CC!
-      </h3>
-      <ul>
-        <li>
-          <RoleEmbed role="Pwr" profession="holosmith" /> please delay{" "}
-          <GW2Skill id="5813" /> and precast just before the CC phase.
-        </li>
-        <li>
-          <RoleEmbed role="Pwr" profession="dragonhunter" /> should save{" "}
-          <GW2Skill id="9093" /> and <GW2Skill id="30273" /> for CC.
-        </li>
       </ul>
     </div>
   );

@@ -238,10 +238,10 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
-                "profession": "chronomancer",
+                "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Blaster"
               }
@@ -252,7 +252,7 @@
             "members": [
               {
                 "profession": "firebrand",
-                "role": "heal",
+                "role": "Heal",
                 "name": "Whiskers"
               },
               {
@@ -268,7 +268,7 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
