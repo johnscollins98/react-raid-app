@@ -1,11 +1,15 @@
 import React from "react";
+import { Gw2Skill, Tooltip } from 'armory-component-ui';
 
-import "./GW2Skill.css";
-import { ISkillProps, GW2EmbedTypes } from "../../utilities/Interfaces";
-import GW2Embed from "../GW2Embed/GW2Embed";
+import { ISkillProps } from "../../utilities/Interfaces";
 
 function GW2Skill(props: ISkillProps) {
-  return <GW2Embed type={GW2EmbedTypes.Skill} {...props} />;
+  return (
+    <span>
+      <Gw2Skill id={props.id} inlineText="wiki" size="25" />
+      <Tooltip />
+    </span>
+  )
 }
 
 export default GW2Skill;

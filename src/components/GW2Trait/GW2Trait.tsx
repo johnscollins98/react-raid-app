@@ -1,11 +1,15 @@
 import React from "react";
+import { Gw2Trait, Tooltip } from 'armory-component-ui';
 
-import "./GW2Trait.css";
-import { ITraitProps, GW2EmbedTypes } from "../../utilities/Interfaces";
-import GW2Embed from "../GW2Embed/GW2Embed";
+import { ITraitProps } from "../../utilities/Interfaces";
 
 function GW2Trait(props: ITraitProps) {
-  return <GW2Embed type={GW2EmbedTypes.Trait} {...props} />;
+  return (
+    <span>
+      <Gw2Trait id={props.id} inlineText="wiki" size="25" />
+      <Tooltip />
+    </span>
+  )
 }
 
 export default GW2Trait;
