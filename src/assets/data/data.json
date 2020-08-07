@@ -28,14 +28,14 @@
                 "name": "Elosia"
               },
               {
-                "profession": "weaver",
+                "profession": "holosmith",
                 "role": "Cnd",
-                "name": "Blaster"
+                "name": "Banana"
               },
               {
                 "profession": "firebrand",
                 "role": "Cnd",
-                "name": "Millie"
+                "name": "Vakill"
               }
             ]
           },
@@ -60,12 +60,12 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Blaster"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Banana"
+                "name": "Alucard"
               }
             ]
           }
