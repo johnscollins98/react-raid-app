@@ -508,10 +508,10 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
-                "profession": "chronomancer",
+                "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Blaster"
               }
@@ -531,9 +531,9 @@
                 "name": "Whiskers"
               },
               {
-                "profession": "soulbeast",
+                "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
