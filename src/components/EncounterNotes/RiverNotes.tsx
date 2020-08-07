@@ -1,7 +1,7 @@
 import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 import GW2Trait from "../GW2Trait/GW2Trait";
 import GW2Skill from "../GW2Skill/GW2Skill";
 
@@ -15,7 +15,7 @@ function RiverNotes() {
         <li>
           <RoleEmbed role="Heal" profession="tempest" /> can go back to help
           Desmina (no more than 4 allies on her or she doesn’t get the{" "}
-          <BoonEmbed id="aegis" />
+          <MiscEmbed id="aegis" />
           ).
         </li>
         <li>

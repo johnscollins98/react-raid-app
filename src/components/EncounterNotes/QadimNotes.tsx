@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 
 function QadimNotes() {
   return (
@@ -18,17 +18,17 @@ function QadimNotes() {
         </li>
         <li>
           With <RoleEmbed role="Heal" profession="tempest" /> we can skip{" "}
-          <BoonEmbed id="stability" /> Pyre and ignore CCs cause of{" "}
+          <MiscEmbed id="stability" /> Pyre and ignore CCs cause of{" "}
           <GW2Skill id="29968" />.
         </li>
         <li>
           <RoleEmbed role="Pwr Boon" profession="chronomancer" /> always goes to{" "}
-          <BoonEmbed id="retaliation" /> Pyre to strip that boon and can Portal
+          <MiscEmbed id="retaliation" /> Pyre to strip that boon and can Portal
           back to mid.
         </li>
         <li>
           <RoleEmbed role="Kite" profession="deadeye" /> always to{" "}
-          <BoonEmbed id="protection" /> one (2nd time we get to them he won’t
+          <MiscEmbed id="protection" /> one (2nd time we get to them he won’t
           have a platform to go to the other anyways).
         </li>
         <li>

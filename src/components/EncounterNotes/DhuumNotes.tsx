@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
 
 function DhuumNotes() {
@@ -20,7 +20,7 @@ function DhuumNotes() {
             label="Chapter 4: Stalwart Stand"
             wikiLink="https://wiki.guildwars2.com/wiki/Chapter_4:_Stalwart_Stand"
           />{" "}
-          in <GW2Skill id="42259" /> for <BoonEmbed id="resistance" /> before{" "}
+          in <GW2Skill id="42259" /> for <MiscEmbed id="resistance" /> before{" "}
           splits.
         </li>
         <li>

@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 
 function GorsevalNotes() {
   return (
@@ -22,7 +22,7 @@ function GorsevalNotes() {
         </li>
         <li>
           <RoleEmbed role="Pwr Banner" profession="berserker" /> remember that{" "}
-          <GW2Skill id="30343" /> strips <BoonEmbed id="stability" />.
+          <GW2Skill id="30343" /> strips <MiscEmbed id="stability" />.
         </li>
       </ul>
       <h3>Gorseval's Slams</h3>
@@ -30,12 +30,12 @@ function GorsevalNotes() {
         <li>
           <RoleEmbed role="Cnd Boon" profession="firebrand" /> take{" "}
           <GW2Skill id="41475" /> to provide your subgroup{" "}
-          <BoonEmbed id="aegis" /> for <GW2Skill id="31875" />
+          <MiscEmbed id="aegis" /> for <GW2Skill id="31875" />
         </li>
         <li>
           <RoleEmbed role="Pwr Boon" profession="chronomancer" /> take{" "}
           <GW2Skill id="10238" /> to provide your subgroup{" "}
-          <BoonEmbed id="stability" /> for <GW2Skill id="31875" />
+          <MiscEmbed id="stability" /> for <GW2Skill id="31875" />
         </li>
       </ul>
       <h3>

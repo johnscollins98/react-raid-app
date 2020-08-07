@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 
 function SlothasorNotes() {
   return (
@@ -12,7 +12,7 @@ function SlothasorNotes() {
         <li>Keep Sloth at beginning until CC at 80%.</li>
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> provides{" "}
-          <BoonEmbed id="stability" /> after each CC phase.
+          <MiscEmbed id="stability" /> after each CC phase.
         </li>
         <li>Tank as close to the middle as possible (face towards middle).</li>
         <li>

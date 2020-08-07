@@ -31,7 +31,7 @@ export interface ICustomGW2SkillProps {
   wikiLink: string;
 }
 
-export interface IBoonEmbedProps {
+export interface IMiscEmbedProps {
   id: string;
 }
 

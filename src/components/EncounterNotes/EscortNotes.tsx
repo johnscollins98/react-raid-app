@@ -2,7 +2,7 @@ import React from "react";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 
 function EscortNotes() {
   return (
@@ -22,7 +22,7 @@ function EscortNotes() {
         </li>
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> escorts Glenna,
-          provides <BoonEmbed id="stability" /> for portals and{" "}
+          provides <MiscEmbed id="stability" /> for portals and{" "}
           <GW2Skill id="9091" /> right after taking the portal.
         </li>
         <li>

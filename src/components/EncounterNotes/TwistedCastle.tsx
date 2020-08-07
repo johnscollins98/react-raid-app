@@ -3,7 +3,7 @@ import ModalVideo from "react-modal-video";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 
 function TwistedCastleNotes() {
   const [showModal, setShowModal] = useState(false);
@@ -24,7 +24,7 @@ function TwistedCastleNotes() {
         </li>
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> try as much as you
-          can to provide <BoonEmbed id="stability" /> and pull mobs.
+          can to provide <MiscEmbed id="stability" /> and pull mobs.
         </li>
         <li>
           If the <RoleEmbed role="Portal" profession="chronomancer" /> fails the

@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
-import BoonEmbed from "../BoonEmbed/BoonEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
 
 function CairnNotes() {
@@ -22,7 +22,7 @@ function CairnNotes() {
         <li>
           <RoleEmbed role="Heal" profession="firebrand" /> should use{" "}
           <GW2Skill id="9153" /> for most greens to provide{" "}
-          <BoonEmbed id="stability" /> to the squad.
+          <MiscEmbed id="stability" /> to the squad.
         </li>
         <li>
           If <GW2Skill id="9153" /> is unavailable. A{" "}
@@ -33,7 +33,7 @@ function CairnNotes() {
             label="Chapter 1: Unflinching Charge"
             wikiLink="https://wiki.guildwars2.com/wiki/Chapter_1:_Unflinching_Charge"
           />{" "}
-          in <GW2Skill id="42259" /> to provide <BoonEmbed id="stability" /> to
+          in <GW2Skill id="42259" /> to provide <MiscEmbed id="stability" /> to
           their subgroup.
           <ul>
             <li>This should only be relevant towards the end of the fight.</li>
