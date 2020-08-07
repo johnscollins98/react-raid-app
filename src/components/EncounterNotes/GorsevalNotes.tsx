@@ -29,13 +29,13 @@ function GorsevalNotes() {
       <ul>
         <li>
           <RoleEmbed role="Cnd Boon" profession="firebrand" /> take{" "}
-          <GW2Skill id="41475" /> to provide your subgroup{" "}
-          <MiscEmbed id="aegis" /> for <GW2Skill id="31875" />
+          <GW2Skill id="41714" /> and use <GW2Skill id="41475" /> to provide
+          your subgroup <MiscEmbed id="aegis" /> for <GW2Skill id="31875" />
         </li>
         <li>
           <RoleEmbed role="Pwr Boon" profession="chronomancer" /> take{" "}
-          <GW2Skill id="10238" /> to provide your subgroup{" "}
-          <MiscEmbed id="stability" /> for <GW2Skill id="31875" />
+          <GW2Skill id="10237" /> and use <GW2Skill id="10238" /> to provide
+          your subgroup <MiscEmbed id="stability" /> for <GW2Skill id="31875" />
         </li>
       </ul>
       <h3>

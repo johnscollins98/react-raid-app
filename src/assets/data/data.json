@@ -95,14 +95,14 @@
                 "name": "Elosia"
               },
               {
-                "profession": "chronomancer",
+                "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Blaster"
+                "name": "Banana"
               },
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               }
             ]
           },
@@ -127,12 +127,12 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Banana"
+                "name": "Blaster"
               }
             ]
           }
