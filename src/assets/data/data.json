@@ -1063,7 +1063,7 @@
               {
                 "profession": "tempest",
                 "role": "Heal",
-                "name": "Quan"
+                "name": "Blaster"
               },
               {
                 "profession": "tempest",
@@ -1073,7 +1073,7 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Blaster"
+                "name": "Vakill"
               },
               {
                 "profession": "dragonhunter",
@@ -1088,7 +1088,7 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Alucard"
               }
             ]
           },
