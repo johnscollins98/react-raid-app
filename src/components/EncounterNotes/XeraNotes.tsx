@@ -3,6 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import ModalVideo from "react-modal-video";
 
 import MiscEmbed from "../MiscEmbed/MiscEmbed";
+import RoleEmbed from "../RoleEmbed/RoleEmbed";
 
 function XeraNotes() {
   const [showImage, setShowImage] = useState(false);
@@ -24,13 +25,16 @@ function XeraNotes() {
       <h3>Tanking</h3>
       <ul>
         <li>
+          <RoleEmbed role="Heal" profession="firebrand" /> tanks Xera.
+        </li>
+        <li>
           Guide{" "}
           <button className="inline-text-button" onClick={handleShowVideo}>
             here.
           </button>
         </li>
         <li>
-          Image{" "}
+          Marker Layout{" "}
           <button className="inline-text-button" onClick={handleShowImage}>
             here.
           </button>

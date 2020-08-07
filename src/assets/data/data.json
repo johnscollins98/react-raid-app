@@ -642,10 +642,10 @@
               {
                 "profession": "firebrand",
                 "role": "Cnd",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
-                "profession": "chronomancer",
+                "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Blaster"
               }
@@ -667,7 +667,7 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
