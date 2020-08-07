@@ -25,6 +25,7 @@ import TwinLargosNotes from "../components/EncounterNotes/TwinLargosNotes";
 import QadimNotes from "./../components/EncounterNotes/QadimNotes";
 import CardinalAdinaNotes from "../components/EncounterNotes/CardinalAdinaNotes";
 import CardinalSabirNotes from "../components/EncounterNotes/CardinalSabirNotes";
+import QadimPNotes from "../components/EncounterNotes/QadimPNotes";
 
 const NoteMap: Map<string, JSX.Element> = new Map<string, JSX.Element>();
 
@@ -66,6 +67,6 @@ NoteMap.set("qadim", <QadimNotes />);
 // Wing 7
 NoteMap.set("adina", <CardinalAdinaNotes />);
 NoteMap.set("sabir", <CardinalSabirNotes />);
-// TODO: QadimP
+NoteMap.set("qadimp", <QadimPNotes />)
 
 export default NoteMap;
