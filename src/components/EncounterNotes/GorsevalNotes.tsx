@@ -53,8 +53,12 @@ function GorsevalNotes() {
       </ul>
       <h3>Split Phase</h3>
       <ul>
-        <li>Subgroup 1 goes left (Arrow)</li>
-        <li>Subgroup 2 goes right (Circle)</li>
+        <li>
+          Subgroup 1 goes left (<MiscEmbed id="arrow" />)
+        </li>
+        <li>
+          Subgroup 2 goes right (<MiscEmbed id="circle" />)
+        </li>
       </ul>
     </div>
   );

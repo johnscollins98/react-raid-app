@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import ModalVideo from "react-modal-video";
 
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
+
 function XeraNotes() {
   const [showImage, setShowImage] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
@@ -36,18 +38,29 @@ function XeraNotes() {
         <li>
           Phase One
           <ul>
-            <li>Arrow until special action key.</li>
-            <li>Circle (Don't stand on square side) until 50%.</li>
+            <li>
+              <MiscEmbed id="arrow" /> until special action key.
+            </li>
+            <li>
+              <MiscEmbed id="circle" /> (Don't stand on square side) until 50%.
+            </li>
           </ul>
         </li>
         <li>
           Phase Two (steps after Star are only necessary if DPS isn't high
           enough)
           <ul>
-            <li>Circle until special action key.</li>
-            <li>Star until orbs end. (Can stay here if DPS is high enough)</li>
+            <li>
+              <MiscEmbed id="circle" /> until special action key.
+            </li>
+            <li>
+              <MiscEmbed id="star" /> until orbs end. (Can stay here if DPS is
+              high enough)
+            </li>
             <li>Middle until special action key (Clear Square if needed)</li>
-            <li>Square until dead. Pls be dead.</li>
+            <li>
+              <MiscEmbed id="square" /> until dead. Pls be dead.
+            </li>
           </ul>
         </li>
       </ul>

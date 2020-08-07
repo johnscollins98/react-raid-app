@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
+import MiscEmbed from "../MiscEmbed/MiscEmbed";
 
 function QadimPNotes() {
   const [showModal, setShowModal] = useState(false);
@@ -36,22 +37,34 @@ function QadimPNotes() {
         <li>
           North Pylon:
           <ul>
-            <li>80%: Heart</li>
-            <li>60%: Square</li>
+            <li>
+              80%: <MiscEmbed id="heart" />
+            </li>
+            <li>
+              60%: <MiscEmbed id="square" />
+            </li>
           </ul>
         </li>
         <li>
           East Pylon:
           <ul>
-            <li>80%: Circle</li>
-            <li>60%: Spiral</li>
+            <li>
+              80%: <MiscEmbed id="circle" />
+            </li>
+            <li>
+              60%: <MiscEmbed id="spiral" />
+            </li>
           </ul>
         </li>
         <li>
           West Pylon:
           <ul>
-            <li>80%: Arrow</li>
-            <li>60%: Star</li>
+            <li>
+              80%: <MiscEmbed id="arrow" />
+            </li>
+            <li>
+              60%: <MiscEmbed id="star" />
+            </li>
           </ul>
         </li>
       </ul>
