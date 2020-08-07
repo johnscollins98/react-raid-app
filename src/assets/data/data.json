@@ -305,7 +305,7 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
                 "profession": "tempest",
@@ -335,7 +335,7 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
@@ -365,11 +365,6 @@
                 "name": "Elosia"
               },
               {
-                "profession": "holosmith",
-                "role": "Cnd",
-                "name": "Banana"
-              },
-              {
                 "profession": "renegade",
                 "role": "Cnd Boon",
                 "name": "Miruna"
@@ -392,17 +387,22 @@
               {
                 "profession": "firebrand",
                 "role": "Cnd",
-                "name": "Millie"
+                "name": "Vakill"
+              },
+              {
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Deekay"
               },
               {
                 "profession": "scourge",
                 "role": "Heal",
-                "name": "Deekay"
+                "name": "Banana"
               },
               {
                 "profession": "mirage",
                 "role": "Cnd",
-                "name": "Quan"
+                "name": "Alucard"
               }
             ]
           }
@@ -466,7 +466,7 @@
               {
                 "profession": "tempest",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "tempest",
@@ -476,7 +476,7 @@
               {
                 "profession": "tempest",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               }
             ]
           }
