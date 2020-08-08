@@ -1086,7 +1086,7 @@
                 "name": "Miruna"
               },
               {
-                "profession": "dragonhunter",
+                "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Alucard"
               }
@@ -1120,7 +1120,7 @@
               {
                 "profession": "tempest",
                 "role": "Heal",
-                "name": "Quan"
+                "name": "Blaster"
               },
               {
                 "profession": "chronomancer",
@@ -1135,7 +1135,7 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
                 "profession": "dragonhunter",
@@ -1163,9 +1163,9 @@
                 "name": "Miruna"
               },
               {
-                "profession": "dragonhunter",
+                "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Blaster"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
