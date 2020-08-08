@@ -1202,12 +1202,12 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Blaster"
               }
             ]
           },
@@ -1225,9 +1225,9 @@
                 "name": "Miruna"
               },
               {
-                "profession": "dragonhunter",
+                "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Blaster"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
