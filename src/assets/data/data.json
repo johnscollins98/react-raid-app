@@ -1257,24 +1257,24 @@
                 "name": "CrackedSass"
               },
               {
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
+              },
+              {
                 "profession": "druid",
                 "role": "Heal",
                 "name": "Whiskers"
               },
               {
-                "profession": "holosmith",
-                "role": "Orbs",
-                "name": "Banana"
-              },
-              {
-                "profession": "berserker",
+                "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Elosia"
+                "name": "Vakill"
               },
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Blaster"
               }
             ]
           },
@@ -1282,24 +1282,24 @@
             "label": "Subgroup 2",
             "members": [
               {
-                "profession": "chronomancer",
-                "role": "Pwr Boon",
-                "name": "Blaster"
-              },
-              {
-                "profession": "druid",
+                "profession": "firebrand",
                 "role": "Heal",
-                "name": "Miruna"
-              },
-              {
-                "profession": "dragonhunter",
-                "role": "Orbs",
                 "name": "Thillar"
               },
               {
-                "profession": "dragonhunter",
+                "profession": "renegade",
+                "role": "Pwr Boon",
+                "name": "Miruna"
+              },
+              {
+                "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Milie"
+                "name": "Alucard"
+              },
+              {
+                "profession": "holosmith",
+                "role": "Pwr",
+                "name": "Banana"
               },
               {
                 "profession": "holosmith",
