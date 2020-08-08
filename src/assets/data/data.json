@@ -1528,7 +1528,7 @@
             "members": [
               {
                 "profession": "chronomancer",
-                "role": "Pwr Boon Tank",
+                "role": "Pwr Boon",
                 "name": "CrackedSass"
               },
               {
@@ -1543,7 +1543,7 @@
               },
               {
                 "profession": "daredevil",
-                "role": "Pwr",
+                "role": "Lamp",
                 "name": "Blaster"
               },
               {
@@ -1567,14 +1567,14 @@
                 "name": "Whiskers"
               },
               {
-                "profession": "dragonhunter",
-                "role": "Pwr",
-                "name": "Millie"
+                "profession": "firebrand",
+                "role": "Cnd",
+                "name": "Vakill"
               },
               {
-                "profession": "dragonhunter",
+                "profession": "daredevil",
                 "role": "Lamp",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "deadeye",
