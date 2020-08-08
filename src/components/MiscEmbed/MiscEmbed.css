@@ -1,3 +1,9 @@
 .boon-embed {
   color: rgb(148, 209, 124);
 }
+
+.boon-embed img {
+  width: 1.5vw;
+  min-width: 25px;
+  height: auto;
+}

@@ -3,3 +3,10 @@
     padding-top: 50%;
   }
 }
+
+.gw2-embed {
+  width: 1.5vw;
+  min-width: 25px;
+  min-height: 25px;
+  height: 1.5vw;
+}

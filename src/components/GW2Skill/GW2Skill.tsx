@@ -7,7 +7,7 @@ import "../../utilities/GW2Embeds.css";
 function GW2Skill(props: IGW2EmbedProps) {
   return (
     <span>
-      <Gw2Skill id={props.id} inlineText="wiki" size="25" />
+      <Gw2Skill className="gw2-embed" id={props.id} inlineText="wiki" />
       <Tooltip className="embed-tooltip" />
     </span>
   );
