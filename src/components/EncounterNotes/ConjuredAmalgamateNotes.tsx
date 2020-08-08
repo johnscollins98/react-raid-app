@@ -15,14 +15,13 @@ function ConjuredAmalgamateNotes() {
       <h3>Jobs</h3>
       <ul>
         <li>
-          Swords 1 - <RoleEmbed role="Pwr Boon" profession="chronomancer" />{" "}
-          (Sass)
+          Swords 1 - <RoleEmbed role="Pwr Boon" profession="chronomancer" />
         </li>
         <li>
-          Swords 2 - <RoleEmbed role="Heal" profession="druid" /> (Thillar)
+          Swords 2 - <RoleEmbed role="Heal" profession="druid" />
         </li>
         <li>
-          Shields - <RoleEmbed role="Heal" profession="firebrand" /> (Whiskers)
+          Shields - <RoleEmbed role="Heal" profession="firebrand" />
         </li>
       </ul>
     </div>
