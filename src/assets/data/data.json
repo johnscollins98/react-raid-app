@@ -1683,14 +1683,14 @@
                 "name": "Thillar"
               },
               {
-                "profession": "chronomancer",
+                "profession": "holosmith",
                 "role": "Pwr",
                 "name": "Blaster"
               },
               {
                 "profession": "firebrand",
                 "role": "Cnd",
-                "name": "Millie"
+                "name": "Vakill"
               }
             ]
           },
@@ -1715,7 +1715,7 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Alucard"
               },
               {
                 "profession": "holosmith",
