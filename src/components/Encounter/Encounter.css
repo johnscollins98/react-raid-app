@@ -4,15 +4,6 @@
 
 .encounter {
   padding-top: 100px;
-  font-size: calc(12px + 0.6vw);
-}
-
-.encounter h3 {
-  font-size: calc(14px + 1vw);
-}
-
-.encounter h5 {
-  font-size: calc(12px + 0.7vw);
 }
 
 .rule {

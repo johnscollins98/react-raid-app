@@ -7,7 +7,7 @@ function RoleEmbed(props: IRoleEmbedProps) {
   const image = require(`../../assets/images/profession-icons/${props.profession}.png`);
   return (
     <span className="role-embed">
-      <img src={image} alt={props.profession} />
+      <img src={image} height="20px" width="20px" alt={props.profession} />
       {` ${props.role} ${
         props.profession[0].toUpperCase() + props.profession.slice(1)
       }`}
