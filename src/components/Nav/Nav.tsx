@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { INavProps, IWing, IEncounter } from "../../utilities/Interfaces";
+import "./Nav.css";
 
 enum ELabelKeys {
   short = 1,
@@ -20,6 +21,7 @@ function getDropdownLinks(wing: IWing) {
         as={RRNavLink}
         exact
         to={link}
+        id="dropdown-item"
         key={encounter.id}
         activeClassName="active"
       >
@@ -80,7 +82,7 @@ function Nav(props: INavProps) {
       fixed="top"
       variant="dark"
       expand="lg"
-      style={{ backgroundColor: "rgba(0,0,0,0.95)" }}
+      style={{ backgroundColor: "rgba(0,0,0,0.85)" }}
     >
       <Navbar.Brand as={RRNavLink} ref={brandRef} exact to="/">
         <img
