@@ -1623,7 +1623,7 @@
               {
                 "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Millie"
+                "name": "Vakill"
               }
             ]
           },
@@ -1643,12 +1643,12 @@
               {
                 "profession": "holosmith",
                 "role": "Pwr",
-                "name": "Quan"
+                "name": "Deekay"
               },
               {
-                "profession": "holosmith",
+                "profession": "dragonhunter",
                 "role": "Pwr",
-                "name": "Deekay"
+                "name": "Alucard"
               },
               {
                 "profession": "dragonhunter",
