@@ -13,7 +13,10 @@ enum ELabelKeys {
   long,
 }
 
-function getDropdownLinks(wing: IWing) {
+function getDropdownLinks(
+  wing: IWing,
+  setExpanded: React.Dispatch<React.SetStateAction<boolean>>
+) {
   return wing.encounters.map((encounter: IEncounter) => {
     const link = `/encounter/${wing.id}/${encounter.id}`;
     return (
@@ -23,6 +26,7 @@ function getDropdownLinks(wing: IWing) {
         to={link}
         id="dropdown-item"
         key={encounter.id}
+        onClick={() => setExpanded(false)}
         activeClassName="active"
       >
         {encounter.label}
@@ -42,11 +46,15 @@ function getLabel(wing: IWing, labelKey: ELabelKeys) {
   }
 }
 
-function getDropdowns(wings: Array<IWing>, labelKey: ELabelKeys) {
+function getDropdowns(
+  wings: Array<IWing>,
+  labelKey: ELabelKeys,
+  setExpanded: React.Dispatch<React.SetStateAction<boolean>>
+) {
   return wings.map((wing: IWing) => (
     <BSNav.Item key={wing.id}>
       <NavDropdown title={getLabel(wing, labelKey)} id="basic-nav-dropdown">
-        {getDropdownLinks(wing)}
+        {getDropdownLinks(wing, setExpanded)}
       </NavDropdown>
     </BSNav.Item>
   ));
@@ -71,6 +79,7 @@ function Nav(props: INavProps) {
   const contentRef = useRef<HTMLDivElement>(null);
   const brandRef = useRef<HTMLAnchorElement>(null);
 
+  const [expanded, setExpanded] = useState(false);
   const [labelKey, setLabelKey] = useState(getLabelKey());
   const logoImage = require("../../assets/images/SO-Logo.png");
 
@@ -82,6 +91,7 @@ function Nav(props: INavProps) {
       fixed="top"
       variant="dark"
       expand="lg"
+      expanded={expanded}
       style={{ backgroundColor: "rgba(0,0,0,0.85)" }}
     >
       <Navbar.Brand as={RRNavLink} ref={brandRef} exact to="/">
@@ -94,10 +104,13 @@ function Nav(props: INavProps) {
         />{" "}
         Sunspear Order
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle
+        aria-controls="responsive-navbar-nav"
+        onClick={() => setExpanded(!expanded)}
+      />
       <Navbar.Collapse id="basic-navbar-nav">
         <BSNav className="mr-auto" ref={contentRef}>
-          {getDropdowns(props.wings, labelKey)}
+          {getDropdowns(props.wings, labelKey, setExpanded)}
         </BSNav>
       </Navbar.Collapse>
     </Navbar>
