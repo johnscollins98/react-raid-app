@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "react-bootstrap/Modal";
 
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import GW2Skill from "../GW2Skill/GW2Skill";
@@ -6,15 +7,20 @@ import MiscEmbed from "../MiscEmbed/MiscEmbed";
 import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
 
 function DhuumNotes() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
+
   return (
     <div>
       <h3>General</h3>
       <ul>
         <li>
-          Non-kiting <RoleEmbed role="Heal" profession="druid" /> tanks.
+          <RoleEmbed role="Cnd Boon" profession="firebrand" /> tanks.
         </li>
         <li>
-          <RoleEmbed role="Cnd" profession="firebrand" /> precast{" "}
+          <RoleEmbed role="Cnd" profession="firebrand" />s precast{" "}
           <CustomGW2Skill
             id="stalwart-stand"
             label="Chapter 4: Stalwart Stand"
@@ -36,10 +42,22 @@ function DhuumNotes() {
       <h3>Greens</h3>
       <ul>
         <li>G1 - Elosia</li>
-        <li>G2 - Quan</li>
+        <li>G2 - Thillar</li>
         <li>G3 - CrackedSass</li>
         <li>Backup - Deekay</li>
+        <li>
+          <button onClick={handleShow} className="inline-text-button">
+            Boss Timings
+          </button>{" "}
+        </li>
       </ul>
+      <Modal show={showModal} onHide={handleClose} centered>
+        <img
+          width="100%"
+          src={require("../../assets/images/dhuum-timer.png")}
+          alt="Cairn"
+        />
+      </Modal>
     </div>
   );
 }

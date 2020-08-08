@@ -1325,18 +1325,18 @@
               },
               {
                 "profession": "druid",
-                "role": "Heal Tank",
+                "role": "Kite",
                 "name": "Thillar"
-              },
-              {
-                "profession": "berserker",
-                "role": "Cnd Banner",
-                "name": "Elosia"
               },
               {
                 "profession": "firebrand",
                 "role": "Cnd",
-                "name": "Deekay"
+                "name": "Vakil"
+              },
+              {
+                "profession": "renegade",
+                "role": "Cnd",
+                "name": "Alucard"
               },
               {
                 "profession": "renegade",
@@ -1350,18 +1350,18 @@
             "members": [
               {
                 "profession": "firebrand",
-                "role": "Cnd Boon",
+                "role": "Cnd Boon Tank",
                 "name": "Whiskers"
               },
               {
                 "profession": "druid",
-                "role": "Kite",
-                "name": "Quan"
+                "role": "Heal",
+                "name": "Deekay"
               },
               {
-                "profession": "firebrand",
-                "role": "Cnd",
-                "name": "Millie"
+                "profession": "berserker",
+                "role": "Pwr Banner",
+                "name": "Elosia"
               },
               {
                 "profession": "renegade",
