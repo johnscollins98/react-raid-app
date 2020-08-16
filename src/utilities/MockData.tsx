@@ -25,8 +25,7 @@ export const mockSubgroupTwo: ISubgroup = {
 export const mockEncounter: IEncounter = {
   id: "gorseval",
   label: "Gorseval the Multifarious",
-  imageName: "gorseval.png",
-  composition: [mockSubgroupOne, mockSubgroupTwo],
+  subgroups: [mockSubgroupOne, mockSubgroupTwo],
 };
 
 export const mockWing: IWing = {

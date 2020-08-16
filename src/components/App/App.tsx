@@ -1,17 +1,16 @@
 // npm imports
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import { combineReducers, applyMiddleware, createStore } from "redux";
 import thunk from "redux-thunk";
 import { reducers } from "armory-component-ui";
+import axios from "axios";
 import "armory-component-ui/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-modal-video/scss/modal-video.scss";
 
 import "./App.css";
-import data from "../../assets/data/data.json";
-import { IWing } from "../../utilities/Interfaces";
 
 import Nav from "../Nav/Nav";
 import EncounterRouter from "../EncounterRouter";
@@ -26,7 +25,18 @@ const store = createStore(
 );
 
 function App() {
-  const wings: Array<IWing> = data;
+  const [wings, setWings] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await axios.get("http://so-raid-editor.herokuapp.com/api/wings");
+      setWings(res.data);
+    }
+    fetchData();
+  }, [])
+
+  // const wings: Array<IWing> = data;
+  if (wings.length === 0) return <p>Loading Data...</p>;
   return (
     <Provider store={store}>
       <Router>

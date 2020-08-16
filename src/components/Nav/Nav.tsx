@@ -111,6 +111,11 @@ function Nav(props: INavProps) {
       <Navbar.Collapse id="basic-navbar-nav">
         <BSNav className="mr-auto" ref={contentRef}>
           {getDropdowns(props.wings, labelKey, setExpanded)}
+          <BSNav.Link
+            href="http://so-raid-editor.herokuapp.com"
+          >
+            Admin
+          </BSNav.Link>
         </BSNav>
       </Navbar.Collapse>
     </Navbar>

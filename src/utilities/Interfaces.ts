@@ -12,8 +12,7 @@ export interface ISubgroup {
 export interface IEncounter {
   id: string;
   label: string;
-  imageName: string;
-  composition: Array<ISubgroup>;
+  subgroups: Array<ISubgroup>;
 }
 
 export enum GW2EmbedTypes {

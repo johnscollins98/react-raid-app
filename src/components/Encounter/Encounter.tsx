@@ -10,7 +10,12 @@ import NoteMap from "../../utilities/NoteMap";
 import Subgroup from "../Subgroup/Subgroup";
 
 function Encounter(props: IEncounter) {
-  const bossImage = require(`../../assets/images/boss-images/${props.imageName}`);
+  let bossImage = null; 
+  try {
+    bossImage = require(`../../assets/images/boss-images/${props.id}.png`);
+  } catch (err) {
+    console.log(`Failed to load image ${props.id}.png`);
+  }
 
   return (
     <div className="encounter">
@@ -27,10 +32,10 @@ function Encounter(props: IEncounter) {
             </Row>
             <Row>
               <Col>
-                {props.composition.map((subgroup, i) => (
+                {props.subgroups.map((subgroup, i) => (
                   <div key={subgroup.label}>
                     <Subgroup {...subgroup} />
-                    {props.composition[i + 1] != null ? (
+                    {props.subgroups[i + 1] != null ? (
                       <div className="rule" />
                     ) : null}
                   </div>
