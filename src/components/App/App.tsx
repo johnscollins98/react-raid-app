@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get("http://so-raid-editor.herokuapp.com/api/wings");
+      const res = await axios.get("https://so-raid-editor.herokuapp.com/api/wings");
       setWings(res.data);
     }
     fetchData();
