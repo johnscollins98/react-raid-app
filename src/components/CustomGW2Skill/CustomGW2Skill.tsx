@@ -5,7 +5,6 @@ import { ICustomGW2SkillProps } from "../../utilities/Interfaces";
 import "../../utilities/GW2Embeds.css";
 
 function CustomGW2Skill(props: ICustomGW2SkillProps) {
-  const img = require(`../../assets/images/skill-icons/${props.id}.png`);
   return (
     <TooltipTrigger
       data={{
@@ -16,7 +15,7 @@ function CustomGW2Skill(props: ICustomGW2SkillProps) {
       className="embed-tooltip"
     >
       <span>
-        <img height="25" width="25" src={img} alt={props.label} />{" "}
+        <img height="25" width="25" src={props.imageLink} alt={props.label} />{" "}
         <a href={props.wikiLink}>{props.label}</a>
       </span>
     </TooltipTrigger>

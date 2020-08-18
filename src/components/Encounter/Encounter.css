@@ -11,3 +11,8 @@
   width: 90%;
   border: 1px solid #ddd;
 }
+
+.notes img {
+  max-width: 60%;
+  height: auto;
+}

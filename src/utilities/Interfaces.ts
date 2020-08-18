@@ -12,6 +12,8 @@ export interface ISubgroup {
 export interface IEncounter {
   id: string;
   label: string;
+  imageLink: string;
+  notes: string;
   subgroups: Array<ISubgroup>;
 }
 
@@ -25,9 +27,9 @@ export interface IGW2EmbedProps {
 }
 
 export interface ICustomGW2SkillProps {
-  id: string;
   label: string;
   wikiLink: string;
+  imageLink: string;
 }
 
 export interface IMiscEmbedProps {
