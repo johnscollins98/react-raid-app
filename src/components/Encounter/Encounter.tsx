@@ -13,6 +13,7 @@ import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import MiscEmbed from "../MiscEmbed/MiscEmbed";
 import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
 import YouTubeModal from "../YouTubeModal/YouTubeModal";
+import ImageModal from "../ImageModal/ImageModal";
 
 import Subgroup from "../Subgroup/Subgroup";
 
@@ -61,6 +62,16 @@ function Encounter(props: IEncounter) {
         shouldProcessNode: (node: any) => node.name === "youtubemodal",
         processNode: (node: any, children: any) => (
           <YouTubeModal id={node.attribs.id} label={node.attribs.label} />
+        ),
+      },
+      {
+        shouldProcessNode: (node: any) => node.name === "imagemodal",
+        processNode: (node: any, children: any) => (
+          <ImageModal
+            label={node.attribs.label}
+            alt={node.attribs.alt}
+            imageLink={node.attribs.imagelink}
+          />
         ),
       },
     ],

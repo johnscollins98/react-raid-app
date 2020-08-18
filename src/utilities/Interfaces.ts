@@ -37,6 +37,12 @@ export interface IYouTubeModalProps {
   label: string;
 }
 
+export interface IImageModalProps {
+  imageLink: string;
+  label: string;
+  alt: string;
+}
+
 export interface IMiscEmbedProps {
   id: string;
 }
