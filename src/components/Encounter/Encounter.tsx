@@ -12,6 +12,7 @@ import GW2Trait from "../GW2Trait/GW2Trait";
 import RoleEmbed from "../RoleEmbed/RoleEmbed";
 import MiscEmbed from "../MiscEmbed/MiscEmbed";
 import CustomGW2Skill from "../CustomGW2Skill/CustomGW2Skill";
+import YouTubeModal from "../YouTubeModal/YouTubeModal";
 
 import Subgroup from "../Subgroup/Subgroup";
 
@@ -54,6 +55,12 @@ function Encounter(props: IEncounter) {
             wikiLink={node.attribs.wikilink}
             imageLink={node.attribs.imagelink}
           />
+        ),
+      },
+      {
+        shouldProcessNode: (node: any) => node.name === "youtubemodal",
+        processNode: (node: any, children: any) => (
+          <YouTubeModal id={node.attribs.id} label={node.attribs.label} />
         ),
       },
     ],

@@ -32,6 +32,11 @@ export interface ICustomGW2SkillProps {
   imageLink: string;
 }
 
+export interface IYouTubeModalProps {
+  id: string;
+  label: string;
+}
+
 export interface IMiscEmbedProps {
   id: string;
 }
